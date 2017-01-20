@@ -1,1 +1,4284 @@
+- namespace: 3dmet
+  title: 3DMET database
+  redirect: http://www.3dmet.dna.affrc.go.jp/cgi/show_data.php?acc=$id
+  test: B00162
+  more: http://www.3dmet.dna.affrc.go.jp/
 
+- namespace: abs
+  title: ABS at IMIM
+  redirect: http://genome.crg.es/datasets/abs2005/entries/$id.html
+  test: A0014
+  more: http://genome.crg.es/datasets/abs2005/
+
+- namespace: aceview.worm
+  title: AceView Worm at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/av.cgi?db=worm&c=Gene&l=$id
+  test: aap-1
+  more: http://www.ncbi.nlm.nih.gov/IEB/Research/Acembly/index.html?worm
+
+- namespace: aclame
+  title: Aclame database of mobile genetic elements
+  redirect: http://aclame.ulb.ac.be/perl/Aclame/Genomes/mge_view.cgi?view=info&id=mge:$id
+  test: 2
+  more: http://aclame.ulb.ac.be/
+
+- namespace: adw
+  title: Animal Diversity Web at University of Michigan
+  redirect: http://animaldiversity.ummz.umich.edu/accounts/$id/
+  test: Lycalopex_vetulus
+  more: http://animaldiversity.ummz.umich.edu/
+
+- namespace: affy.probeset
+  title: Affymetrix ProbeSet in Santa Clara
+  redirect: https://www.affymetrix.com/LinkServlet?probeset=$id
+  test: 243002_at
+  more: http://www.affymetrix.com/
+
+- namespace: affy.probeset
+  provider: z065
+  title: Bio2RDF
+  redirect: http://cu.affymetrix.bio2rdf.org/describe/?url=http://bio2rdf.org/affymetrix:$id
+  test: 243002_at
+  more: http://cu.affymetrix.bio2rdf.org/fct/
+
+- namespace: aftol.taxonomy
+  title: AFTOL at University of Minnesota
+  redirect: http://wasabi.lutzonilab.net/pub/displayTaxonInfo?aftol_id=$id
+  test: 959
+  more: http://aftol.org/data.php
+
+- namespace: allergome
+  title: Allergome at Rome
+  redirect: http://www.allergome.org/script/dettaglio.php?id_molecule=$id
+  test: 1948
+  more: http://www.allergome.org/
+
+- namespace: amoebadb
+  title: AmoebaDB at EuPathDB
+  redirect: http://amoebadb.org/amoeba/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: EDI_244000
+  more: http://amoebadb.org/amoeba/
+
+- namespace: antibodyregistry
+  title: Antibody Registry at University of California
+  redirect: http://antibodyregistry.org/AB_$id
+  test: 493771
+  more: http://antibodyregistry.org/
+
+- namespace: antweb
+  title: AntWeb at California Academy of Sciences
+  redirect: http://www.antweb.org/specimen.do?name=$id
+  test: casent0106247
+  more: http://www.antweb.org/
+
+- namespace: apd
+  title: APD at Nebraska
+  redirect: http://aps.unmc.edu/AP/database/query_output.php?ID=$id
+  test: 01001
+  more: http://aps.unmc.edu/AP/
+
+- namespace: aphidbase.transcript
+  title: AphidBase at INRA
+  redirect: http://bipaa.genouest.org/apps/grs-2.3/grs?reportID=aphidbase_transcript_report&objectID=$id
+  test: ACYPI000159
+  more: http://www.aphidbase.com/aphidbase
+
+- namespace: apid.interactions
+  title: APID at Salamanca
+  redirect: http://cicblade.dep.usal.es:8080/APID/Interactions.action?protein=$id
+  test: P01116
+  more: http://cicblade.dep.usal.es:8080/APID/
+
+- namespace: arachnoserver
+  title: ArachnoServer at Brisbane
+  redirect: http://www.arachnoserver.org/toxincard.html?id=$id
+  test: AS000060
+  more: http://www.arachnoserver.org/
+
+- namespace: ardb
+  title: ARDB at University of Maryland
+  redirect: http://ardb.cbcb.umd.edu/cgi/search.cgi?db=L&amp;field=ni&amp;term=$id
+  test: CAE46076
+  more: http://ardb.cbcb.umd.edu/
+
+- namespace: ark
+  title: Archival Resource Key
+  redirect: n2t.net/ark:$id
+  test: /88435/hq37vq534
+  more: https://wiki.ucop.edu/display/Curation/ARK
+
+- namespace: arrayexpress
+  title: ArrayExpress
+  redirect: http://www.ebi.ac.uk/arrayexpress/experiments/$id
+  test: E-MEXP-1712
+  more: http://www.ebi.ac.uk/arrayexpress/
+
+- namespace: arrayexpress.platform
+  title: ArrayExpress Platform at EBI
+  redirect: http://www.ebi.ac.uk/arrayexpress/arrays/$id
+  test: A-GEOD-50
+  more: http://www.ebi.ac.uk/arrayexpress/
+
+- namespace: arxiv
+  title: Cornell University arXiv
+  redirect: http://arxiv.org/abs/$id
+  test: 0807.4956v1
+  more: http://arxiv.org/
+
+- namespace: asap
+  title: ASAP at University of Wisconsin
+  redirect: http://asap.ahabs.wisc.edu/asap/feature_info.php?LocationID=WIS&FeatureID=$id
+  test: ABE-0009634
+  more: http://asap.ahabs.wisc.edu/asap/home.php
+
+- namespace: aspgd.locus
+  title: AspGD at Stanford Medical School
+  redirect: http://www.aspergillusgenome.org/cgi-bin/locus.pl?dbid=$id
+  test: ASPL0000349247
+  more: http://www.aspgd.org/
+
+- namespace: aspgd.protein
+  title: AspGD Protein at Stanford Medical School
+  redirect: http://www.aspergillusgenome.org/cgi-bin/protein/proteinPage.pl?dbid=$id
+  test: ASPL0000349247
+  more: http://www.aspgd.org/
+
+- namespace: atc
+  title: Anatomical Therapeutic Chemical Index at WHO
+  redirect: http://www.whocc.no/atc_ddd_index/?code=$id
+  test: A10BA02
+  more: http://www.whocc.no/atc_ddd_index/
+
+- namespace: atcc
+  title: ATCC in Virginia
+  redirect: http://www.lgcstandards-atcc.org/Products/All/$id.aspx
+  test: 11303
+  more: http://www.atcc.org/
+
+- namespace: atcvet
+  title: Anatomical Therapeutic Chemical Vet Index at WHO
+  redirect: http://www.whocc.no/atcvet/atcvet_index/?code=$id
+  test: QJ51RV02
+  more: http://www.whocc.no/atcvet/atcvet_index/
+
+- namespace: atfdb.family
+  title: Animal TFDB at Hubei Bioinformatics & Molecular Imaging Key Laboratory
+  redirect: http://www.bioguo.org/AnimalTFDB/family.php?fam=$id
+  test: CUT
+  more: http://www.bioguo.org/AnimalTFDB/family_index.php
+
+- namespace: autdb
+  title: AutDB at MindSpec
+  redirect: http://autism.mindspec.org/GeneDetail/$id
+  test: ADA
+  more: http://autism.mindspec.org/autdb/
+
+- namespace: bacmap.biog
+  title: BacMap Biography at University of Alberta
+  redirect: http://bacmap.wishartlab.com/organisms/$id
+  test: 1050
+  more: http://bacmap.wishartlab.com/
+
+- namespace: bacmap.map
+  title: BacMap Genome Map at University of Alberta
+  redirect: http://bacmap.wishartlab.com/maps/$id/index.html
+  test: AP011135
+  more: http://bacmap.wishartlab.com/
+
+- namespace: bdgp.est
+  title: BDGP EST at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/nucest/$id
+  test: EY223054.1
+  more: http://www.ncbi.nlm.nih.gov/dbEST/index.html
+
+- namespace: bdgp.insertion
+  title: BDGP Gene Disruption Project
+  redirect: http://flypush.imgen.bcm.tmc.edu/pscreen/details.php?line=$id
+  test: KG09531
+  more: http://flypush.imgen.bcm.tmc.edu/pscreen/
+
+- namespace: beetlebase
+  title: BeetleBase at Kansas State University
+  redirect: http://beetlebase.org/cgi-bin/gbrowse/BeetleBase3.gff3/?name=$id
+  test: TC010103
+  more: http://beetlebase.org/
+
+- namespace: bgee.family
+  title: Bgee at Lausanne
+  redirect: http://bgee.unil.ch/bgee/bgee?page=gene_family&action=family_details&gene_family_id=$id
+  test: ENSFM00500000270089
+  more: http://bgee.unil.ch/bgee/bgee
+
+- namespace: bgee.gene
+  title: Bgee at Lausanne
+  redirect: http://bgee.unil.ch/bgee/bgee?page=gene&action=summary&gene_id=$id
+  test: ENSDARG00000013057
+  more: http://bgee.unil.ch/bgee/bgee
+
+- namespace: bgee.organ
+  title: Bgee at Lausanne
+  redirect: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organ_details&organ_id=$id&organ_children=on
+  test: EHDAA:2185
+  more: http://bgee.unil.ch/bgee/bgee
+
+- namespace: bgee.stage
+  title: Bgee at Lausanne
+  redirect: http://bgee.unil.ch/bgee/bgee?page=anatomy&action=organs&stage_id=$id&stage_children=on
+  test: HsapDO:0000004
+  more: http://bgee.unil.ch/bgee/bgee
+
+- namespace: bigg.compartment
+  title: BiGG Compartment at University of California
+  redirect: http://bigg.ucsd.edu/compartments/$id
+  test: c
+  more: http://bigg.ucsd.edu/compartments/
+
+- namespace: bigg.metabolite
+  title: BiGG Metabolite at University of Cakifornia
+  redirect: http://bigg.ucsd.edu/models/universal/metabolites/$id
+  test: 12dgr161
+  more: http://bigg.ucsd.edu/universal/metabolites
+
+- namespace: bigg.model
+  title: BiGG Model at University of California
+  redirect: http://bigg.ucsd.edu/models/$id
+  test: iECABU_c1320
+  more: http://bigg.ucsd.edu/models
+
+- namespace: bigg.reaction
+  title: BiGG Reaction at University of California
+  redirect: http://bigg.ucsd.edu/models/universal/reactions/$id
+  test: 13GS
+  more: http://bigg.ucsd.edu/universal/reactions
+
+- namespace: bindingDB
+  title: BindingDB At Skaggs School of Pharmacy & Pharmaceutical Sciences
+  redirect: http://www.bindingdb.org/bind/chemsearch/marvin/MolStructure.jsp?monomerid=$id
+  test: 22360
+  more: http://www.bindingdb.org/bind/index.jsp
+
+- namespace: biocarta.pathway
+  title: BioCarta Pathway at NCI
+  redirect: http://cgap.nci.nih.gov/Pathways/BioCarta/$id
+  test: h_aktPathway
+  more: http://www.biocarta.com/
+
+- namespace: biocatalogue.service
+  title: BioCatalogue at EMBL-EBI
+  redirect: https://www.biocatalogue.org/services/$id
+  test: 614
+  more: http://www.biocatalogue.org/
+
+- namespace: biocyc
+  title: BioCyc at SRI International
+  redirect: http://biocyc.org/getid?id=$id
+  test: ECOLI:CYT-D-UBIOX-CPLX
+  more: http://biocyc.org
+
+- namespace: biogrid
+  title: BioGRID database of physical and genetic interactions
+  redirect: http://thebiogrid.org/$id
+  test: 31623
+  more: http://thebiogrid.org/
+
+- namespace: biomodels.db
+  title: BioModels Database
+  redirect: http://www.ebi.ac.uk/biomodels-main/$id
+  test: BIOMD0000000048
+  more: http://www.ebi.ac.uk/biomodels/
+
+- namespace: biomodels.db
+  provider: z017
+  title: Caltech mirror
+  redirect: http://biomodels.caltech.edu/$id
+  test: BIOMD0000000048
+  more: http://biomodels.caltech.edu/
+
+- namespace: biomodels.db
+  provider: z018
+  title: Bio2RDF
+  redirect: http://cu.biomodels.bio2rdf.org/describe/?url=http://bio2rdf.org/biomodels:$id
+  test: BIOMD0000000048
+  more: http://cu.biomodels.bio2rdf.org/fct/
+
+- namespace: biomodels.kisao
+  title: KiSAO via NCBO's Bioportal
+  redirect: http://purl.bioontology.org/ontology/KISAO/kisao:$id
+  test: KISAO_0000057
+  more: http://bioportal.bioontology.org/ontologies/KISAO
+
+- namespace: biomodels.kisao
+  provider: ols
+  title: KiSAO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/kisao/terms?short_form=$id
+  test: KISAO_0000057
+  more: http://www.ebi.ac.uk/ols/ontologies/kisao
+
+- namespace: biomodels.teddy
+  title: TEDDY through BioPortal
+  redirect: http://purl.bioontology.org/ontology/TEDDY/$id
+  test: TEDDY_0000066
+  more: http://teddyontology.sourceforge.net/
+
+- namespace: biomodels.teddy
+  provider: ols
+  title: TEDDY though OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/teddy/terms?short_form=$id
+  test: TEDDY_0000066
+  more: http://www.ebi.ac.uk/ols/ontologies/teddy
+
+- namespace: biomodels.vocabulary
+  title: Vocabulary via BioModels.net
+  redirect: http://biomodels.net/rdf/vocabulary.rdf#$id
+  test: rateRule
+  more: http://biomodels.net/rdf/vocabulary.rdf
+
+- namespace: bionumbers
+  title: BioNumbers database
+  redirect: http://www.bionumbers.hms.harvard.edu/bionumber.aspx?s=y&id=$id&ver=1
+  test: 104674
+  more: http://www.bionumbers.hms.harvard.edu/search.aspx
+
+- namespace: bioportal
+  title: BioPortal at National Center for Biomedical Ontology
+  redirect: http://bioportal.bioontology.org/ontologies/$id
+  test: 1046
+  more: http://bioportal.bioontology.org/
+
+- namespace: bioproject
+  title: BioProject at DNA Data Bank of Japan
+  redirect: http://trace.ddbj.nig.ac.jp/BPSearch/bioproject?acc=$id
+  test: PRJDB3
+  more: http://trace.ddbj.nig.ac.jp/bioproject/
+
+- namespace: bioproject
+  provider: ebi
+  title: BioProject at European Nucleotide Archive (ENA)
+  redirect: http://www.ebi.ac.uk/ena/data/view/$id
+  test: PRJDB3
+  more: http://www.ebi.ac.uk/ena/
+
+- namespace: bioproject
+  provider: ncbi
+  title: BioProject at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/bioproject?term=$id
+  test: PRJDB3
+  more: http://www.ncbi.nlm.nih.gov/bioproject
+
+- namespace: biosample
+  title: BioSample Database at EBI
+  redirect: http://www.ebi.ac.uk/biosamples/sample/$id
+  test: SAMEA2397676
+  more: http://www.ebi.ac.uk/biosamples/
+
+- namespace: biosample
+  provider: ncbi
+  title: BioSample at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/biosample?term=$id
+  test: SAMN00000002
+  more: http://www.ncbi.nlm.nih.gov/biosample
+
+- namespace: biosample
+  provider: z054
+  title: BioSample at DNA Data Bank of Japan
+  redirect: http://trace.ddbj.nig.ac.jp/BSSearch/biosample?acc=$id
+  test: SAMD00005257
+  more: http://trace.ddbj.nig.ac.jp/biosample/
+
+- namespace: biosharing
+  title: BioSharing at University of Oxford
+  redirect: https://www.biosharing.org/$id
+  test: bsg-000052
+  more: https://www.biosharing.org/
+
+- namespace: biosystems
+  title: BioSystems database at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/biosystems/$id
+  test: 001
+  more: http://www.ncbi.nlm.nih.gov/biosystems/
+
+- namespace: bitterdb.cpd
+  title: BitterDB Compound at The Hebrew University of Jerusalem
+  redirect: http://bitterdb.agri.huji.ac.il/bitterdb/compound.php?id=$id
+  test: 46
+  more: http://bitterdb.agri.huji.ac.il/dbbitter.php
+
+- namespace: bitterdb.rec
+  title: BitterDB Receptor at The Hebrew University of Jerusalem
+  redirect: http://bitterdb.agri.huji.ac.il/Receptor.php?id=$id
+  test: 1
+  more: http://bitterdb.agri.huji.ac.il/dbbitter.php
+
+- namespace: bold.taxonomy
+  title: BOLD taxonomy browser
+  redirect: http://www.boldsystems.org/index.php/Taxbrowser_Taxonpage?taxid=$id
+  test: 27267
+  more: http://www.boldsystems.org/
+
+- namespace: brenda
+  title: Brenda enzyme database
+  redirect: http://www.brenda-enzymes.org/php/result_flat.php4?ecno=$id
+  test: 1.1.1.1
+  more: http://www.brenda-enzymes.org/
+
+- namespace: broad
+  title: Broad Fungal Genome Initiative at Broad Institute
+  redirect: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/GeneDetails.html?sp=$id
+  test: S7000002168151102
+  more: http://www.broadinstitute.org/annotation/genome/magnaporthe_grisea/
+
+- namespace: bto
+  title: Brenda Tissue Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/bto/terms?obo_id=BTO:$id
+  test: 0000146
+  more: http://www.ebi.ac.uk/ols/ontologies/bto
+
+- namespace: bto
+  provider: bptl
+  title: Brenda Tissue Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/BTO/BTO:$id
+  test: 0000146
+  more: http://bioportal.bioontology.org/ontologies/BTO
+
+- namespace: bugbase.expt
+  title: BugBase Expt at University of London
+  redirect: http://bugs.sgul.ac.uk/bugsbase/tabs/experiment.php?expt_id=$id&action=view
+  test: 288
+  more: http://bugs.sgul.ac.uk/E-BUGS
+
+- namespace: bugbase.protocol
+  title: BugBase Protocol at University of London
+  redirect: http://bugs.sgul.ac.uk/bugsbase/tabs/protocol.php?protocol_id=$id&amp;action=view
+  test: 67
+  more: http://bugs.sgul.ac.uk/E-BUGS
+
+- namespace: bykdb
+  title: BYKdb at CNRS
+  redirect: https://bykdb.ibcp.fr/data/html/annotated/$id.html
+  test: A0A010GJI9
+  more: http://bykdb.ibcp.fr/BYKdb/
+
+- namespace: cabri
+  title: CABRI Cell Lines catalogue in Genova (SRS)
+  redirect: http://www.cabri.org/CABRI/srs-bin/wgetz?-e+-page+EntryPage+[$id]
+  test: dsmz_mutz-id:ACC 291
+  more: http://www.cabri.org/
+
+- namespace: cabri
+  provider: z050
+  title: CABRI Cell Lines catalogue in Brussels (SRS)
+  redirect: http://www.be.cabri.org/CABRI/srs-bin/wgetz?-e+-page+EntryPage+[$id]
+  test: dsmz_mutz-id:ACC 291
+  more: http://www.be.cabri.org/
+
+- namespace: caps
+  title: CAPS-DB at Leeds Institute of Molecular Medicine
+  redirect: http://www.bioinsilico.org/cgi-bin/CAPSDB/getCAPScluster?nidcl=$id
+  test: 434
+  more: http://www.bioinsilico.org/cgi-bin/CAPSDB/staticHTML/home
+
+- namespace: cas
+  title: CAS through Common Chemistry
+  redirect: http://commonchemistry.org/ChemicalDetail.aspx?ref=$id
+  test: 50-00-0
+  more: http://commonchemistry.org
+
+- namespace: cath.domain
+  title: CATH domain at UCL
+  redirect: http://www.cathdb.info/domain/$id
+  test: 1cukA01
+  more: http://www.cathdb.info/
+
+- namespace: cath.superfamily
+  title: CATH superfamily at UCL
+  redirect: http://www.cathdb.info/cathnode/$id
+  test: 1.10.10.200
+  more: http://www.cathdb.info/
+
+- namespace: cattleqtldb
+  title: Animal QTL Cattle at Iowa State University
+  redirect: http://www.animalgenome.org/cgi-bin/QTLdb/BT/qdetails?QTL_ID=$id
+  test: 4685
+  more: http://www.animalgenome.org/cgi-bin/QTLdb/BT/index
+
+- namespace: cazy
+  title: CAZy at CNRS
+  redirect: http://www.cazy.org/$id.html
+  test: GT10
+  more: http://www.cazy.org/
+
+- namespace: ccds
+  title: Consensus CDS at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/CCDS/CcdsBrowse.cgi?REQUEST=CCDS&DATA=$id
+  test: CCDS13573.1
+  more: http://www.ncbi.nlm.nih.gov/CCDS/
+
+- namespace: cco
+  title: Cell Cycle Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ontology-lookup/?termId=CCO:$id
+  test: P0000023
+  more: http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=CCO
+
+- namespace: cdd
+  title: Conserved Domain Database at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=$id
+  test: cd00400
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=cdd
+
+- namespace: cdpd
+  title: Canadian Drug Identification Number at Health Canada
+  redirect: http://webprod3.hc-sc.gc.ca/dpd-bdpp/info.do?lang=eng&code=$id
+  test: 63250
+  more: http://webprod3.hc-sc.gc.ca/dpd-bdpp/index-eng.jsp
+
+- namespace: cellimage
+  title: Cell Image Library at American Society for Cell Biology
+  redirect: http://cellimagelibrary.org/images/$id
+  test: 24801
+  more: http://cellimagelibrary.org/
+
+- namespace: cgd
+  title: Candida Genome Database at Stanford University
+  redirect: http://www.candidagenome.org/cgi-bin/locus.pl?dbid=$id
+  test: CAL0003079
+  more: http://www.candidagenome.org/
+
+- namespace: cgsc
+  title: CGSC at Yale university
+  redirect: http://cgsc.biology.yale.edu/Strain.php?ID=$id
+  test: 11042
+  more: http://cgsc.biology.yale.edu/index.php
+
+- namespace: charprot
+  title: CharProt at JCVI
+  redirect: http://www.jcvi.org/charprotdb/index.cgi/view/$id
+  test: CH_001923
+  more: http://www.jcvi.org/charprotdb
+
+- namespace: chebi
+  title: ChEBI (Chemical Entities of Biological Interest)
+  redirect: http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:$id
+  test: 36927
+  more: http://www.ebi.ac.uk/chebi/
+
+- namespace: chebi
+  provider: bptl
+  title: ChEBI through BioPortal
+  redirect: http://purl.bioontology.org/ontology/CHEBI/CHEBI:$id
+  test: 36927
+  more: http://bioportal.bioontology.org/ontologies/CHEBI
+
+- namespace: chebi
+  provider: ols
+  title: ChEBI through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/chebi/terms?obo_id=CHEBI:$id
+  test: 36927
+  more: http://www.ebi.ac.uk/ols/ontologies/chebi
+
+- namespace: chembank
+  title: ChemBank at Broad Institute
+  redirect: http://chembank.broadinstitute.org/chemistry/viewMolecule.htm?cbid=$id
+  test: 1000000
+  more: http://chembank.broadinstitute.org/
+
+- namespace: chembl.compound
+  title: ChEMBL compound database at EBI
+  redirect: https://www.ebi.ac.uk/chembl/compound/inspect/$id
+  test: CHEMBL308052
+  more: https://www.ebi.ac.uk/chembldb/
+
+- namespace: chembl.compound
+  provider: z037
+  title: ChEMBL compound RDF
+  redirect: http://linkedchemistry.info/chembl/chemblid/$id
+  test: CHEMBL308052
+  more: https://github.com/egonw/chembl.rdf
+
+- namespace: chembl.compound
+  provider: z038
+  title: ChEMBL compound RDF through EBI RDF Platform
+  redirect: http://rdf.ebi.ac.uk/resource/chembl/molecule/$id
+  test: CHEMBL308052
+  more: https://www.ebi.ac.uk/rdf/services/chembl/
+
+- namespace: chembl.target
+  title: ChEMBL targets database at EBI
+  redirect: https://www.ebi.ac.uk/chembl/target/inspect/$id
+  test: CHEMBL3467
+  more: https://www.ebi.ac.uk/chembldb/
+
+- namespace: chembl.target
+  provider: z039
+  title: ChEMBL target RDF
+  redirect: http://linkedchemistry.info/chembl/chemblid/$id
+  test: CHEMBL3467
+  more: https://github.com/egonw/chembl.rdf
+
+- namespace: chembl.target
+  provider: z040
+  title: ChEMBL target RDF through EBI RDF Platform
+  redirect: http://rdf.ebi.ac.uk/resource/chembl/target/$id
+  test: CHEMBL3467
+  more: http://rdf.ebi.ac.uk/resource/chembl/
+
+- namespace: chemdb
+  title: ChemDB at UC Irvine
+  redirect: http://cdb.ics.uci.edu/cgibin/ChemicalDetailWeb.py?chemical_id=$id
+  test: 3966782
+  more: http://cdb.ics.uci.edu/
+
+- namespace: chemidplus
+  title: ChemIDplus at National Library of Medicine
+  redirect: http://chem.sis.nlm.nih.gov/chemidplus/direct.jsp?regno=$id
+  test: 000057272
+  more: http://chem.sis.nlm.nih.gov/chemidplus/chemidheavy.jsp
+
+- namespace: chemspider
+  title: ChemSpider at RSC
+  redirect: http://www.chemspider.com/Chemical-Structure.$id.html
+  test: 56586
+  more: http://www.chemspider.com/
+
+- namespace: chickenqtldb
+  title: Animal QTL Chicken at Iowa State University
+  redirect: http://www.animalgenome.org/cgi-bin/QTLdb/GG/qdetails?QTL_ID=$id
+  test: 14362
+  more: http://www.animalgenome.org/cgi-bin/QTLdb/GG/index
+
+- namespace: cl
+  title: Cell Type Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/cl/terms?obo_id=CL:$id
+  test: 0000232
+  more: http://www.ebi.ac.uk/ols/ontologies/cl
+
+- namespace: cl
+  provider: bptl
+  title: Cell Type Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/CL/CL:$id
+  test: 0000232
+  more: http://bioportal.bioontology.org/ontologies/CL
+
+- namespace: cldb
+  title: CLDB at Genova
+  redirect: http://bioinformatics.hsanmartino.it/hypercldb/$id.html
+  test: cl3603
+  more: http://bioinformatics.hsanmartino.it/hypercldb/indexes.html
+
+- namespace: clinicaltrials
+  title: ClinicalTrials.gov at NIH
+  redirect: http://clinicaltrials.gov/ct2/show/$id
+  test: NCT00222573
+  more: http://clinicaltrials.gov/
+
+- namespace: clinicaltrials
+  provider: z044
+  title: Bio2RDF
+  redirect: http://clinicaltrials.bio2rdf.org/describe/?url=http://bio2rdf.org/clinicaltrials:$id
+  test: NCT00222573
+  more: http://clinicaltrials.bio2rdf.org/fct
+
+- namespace: clinvar.record
+  title: ClinVar Record at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/clinvar/$id/
+  test: RCV000033555.3
+  more: http://www.ncbi.nlm.nih.gov/clinvar/
+
+- namespace: combine.specifications
+  title: COMBINE at EBI
+  redirect: http://co.mbine.org/specifications/$id
+  test: sbgn.er.level-1.version-1.2
+  more: http://co.mbine.org/standards/
+
+- namespace: compulyeast
+  title: Compluyeast database at Universidad Complutense Madrid
+  redirect: http://compluyeast2dpage.dacya.ucm.es/cgi-bin/2d/2d.cgi?ac=$id
+  test: O08709
+  more: http://compluyeast2dpage.dacya.ucm.es/
+
+- namespace: conoserver
+  title: ConoServer at University of Queensland
+  redirect: http://www.conoserver.org/?page=card&table=protein&id=$id
+  test: 2639
+  more: http://www.conoserver.org/
+
+- namespace: coriell
+  title: Coriell Cell Repositories at Coriell Institute
+  redirect: http://ccr.coriell.org/Sections/Search/Sample_Detail.aspx?Ref=$id
+  test: GM17027
+  more: http://ccr.coriell.org/
+
+- namespace: corum
+  title: CORUM at Institute for Bioinformatics and Systems Biology (Germany)
+  redirect: http://mips.helmholtz-muenchen.de/genre/proj/corum/complexdetails.html?id=$id
+  test: 100
+  more: http://mips.helmholtz-muenchen.de/genre/proj/corum/
+
+- namespace: cpc
+  title: Cooperative Patent Classification at Espace
+  redirect: http://worldwide.espacenet.com/classification?locale=en_EP#!/CPC=$id
+  test: A01M1/026
+  more: http://worldwide.espacenet.com/classification
+
+- namespace: cryptodb
+  title: CryptoDB at EuPathDB
+  redirect: http://cryptodb.org/cryptodb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: cgd7_230
+  more: http://cryptodb.org/cryptodb/
+
+- namespace: csa
+  title: CSA at EBI
+  redirect: http://www.ebi.ac.uk/thornton-srv/databases/CSA/SearchResults.php?PDBID=$id
+  test: 1a05
+  more: http://www.ebi.ac.uk/thornton-srv/databases/CSA/
+
+- namespace: cst
+  title: CST Pathways at Cell Signaling Technology
+  redirect: http://www.cellsignal.com/reference/pathway/$id.html
+  test: Akt_PKB
+  more: http://www.cellsignal.com/pathways/index.html
+
+- namespace: cst.ab
+  title: CST Antibody at Cell Signaling Technology
+  redirect: http://www.cellsignal.com/products/$id.html
+  test: 3305
+  more: http://www.cellsignal.com/catalog/index.html
+
+- namespace: ctd.chemical
+  title: Comparative Toxicogenomics Database (Chemical)
+  redirect: http://ctdbase.org/detail.go?type=chem&acc=$id
+  test: D001151
+  more: http://ctdbase.org/
+
+- namespace: ctd.disease
+  title: Comparative Toxicogenomics Database (Disease)
+  redirect: http://ctdbase.org/detail.go?type=disease&db=MESH&acc=$id
+  test: D053716
+  more: http://ctdbase.org/
+
+- namespace: ctd.gene
+  title: Comparative Toxicogenomics Database (Gene)
+  redirect: http://ctdbase.org/detail.go?type=gene&acc=$id
+  test: 101
+  more: http://ctdbase.org/
+
+- namespace: cubedb
+  title: Cube db at Bioinformatics Institute (Singapore)
+  redirect: http://epsf.bmad.bii.a-star.edu.sg/cube/db/data/$id/
+  test: AKR
+  more: http://epsf.bmad.bii.a-star.edu.sg/cube/db/html/home.html
+
+- namespace: cygd
+  title: CYGD PEDANT Interface at Biomax Informatics
+  redirect: http://pedant.helmholtz-muenchen.de/pedant3htmlview/pedant3view?Db=p3_p13838_Sac_cerev&Method=ReportGene&GeneticelemCode=$id
+  test: YFL039c
+  more: http://pedant.helmholtz-muenchen.de/pedant3htmlview/pedant3view?Method=start_method&Db=p3_p13838_Sac_cerev
+
+- namespace: dailymed
+  title: DailyMed at NLM
+  redirect: http://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=$id
+  test: 8889bcd7-d0e9-434b-b09d-30132bd033b0
+  more: http://dailymed.nlm.nih.gov/dailymed/
+
+- namespace: darc
+  title: DARC at University of Munich
+  redirect: http://darcsite.genzentrum.lmu.de/darc/view.php?id=$id
+  test: 1250
+  more: http://darcsite.genzentrum.lmu.de/darc/index.php
+
+- namespace: dashr
+  title: DASHR at  University of Pennsylvania
+  redirect: http://lisanwanglab.org/DASHR/entry/$id
+  test: hsa-mir-200a
+  more: http://lisanwanglab.org/DASHR/
+
+- namespace: dashr.expression
+  title: DASHR expression at University of Pennsylvania
+  redirect: http://lisanwanglab.org/DASHR/entry/$id#exprPerTissueTable
+  test: hsa-mir-200a
+  more: http://lisanwanglab.org/DASHR/show-expression-table.php?start=0
+
+- namespace: datf
+  title: DATF through PlantTFDB
+  redirect: http://planttfdb.cbi.pku.edu.cn/tf.php?sp=Ath&did=$id
+  test: AT1G01030.1
+  more: http://datf.cbi.pku.edu.cn/
+
+- namespace: dbd
+  title: DBD at MRC Laboratory of Molecular Biology
+  redirect: http://www.transcriptionfactor.org/index.cgi?Search/Domain+domain:$id+cat:DBD
+  test: 0045310
+  more: http://www.transcriptionfactor.org/
+
+- namespace: dbest
+  title: dbEST at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/nucest/$id
+  test: BP100000
+  more: http://www.ncbi.nlm.nih.gov/nucest
+
+- namespace: dbest
+  provider: ebi
+  title: dbEST through European Nucleotide Archive (ENA)
+  redirect: http://www.ebi.ac.uk/ena/data/view/$id
+  test: BP100000.1
+  more: http://www.ebi.ac.uk/ena
+
+- namespace: dbest
+  provider: z045
+  title: dbEST through DNA Data Bank of Japan (DDBJ)
+  redirect: http://getentry.ddbj.nig.ac.jp/getentry/na/$id
+  test: BP100000
+  more: http://www.ddbj.nig.ac.jp/
+
+- namespace: dbg2introns
+  title: Bacterial Group II Introns at University of Calgary
+  redirect: http://webapps2.ucalgary.ca/~groupii/cgi-bin/intron.cgi?name=$id
+  test: Cu.me.I1
+  more: http://webapps2.ucalgary.ca/~groupii/
+
+- namespace: dbprobe
+  title: dbProbe at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/probe/?term=$id
+  test: 1000000
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=probe
+
+- namespace: dbsnp
+  title: dbSNP at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/projects/SNP/snp_ref.cgi?rs=$id
+  test: 121909098
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=snp
+
+- namespace: degradome
+  title: Degradome Database at
+  redirect: http://degradome.uniovi.es/cgi-bin/protease/$id
+  test: Ax1
+  more: http://degradome.uniovi.es/
+
+- namespace: depod
+  title: DEPOD at EMBL
+  redirect: http://www.koehnlab.de/depod/showp.php?gene=$id
+  test: PTPN1
+  more: http://www.koehnlab.de/depod/
+
+- namespace: dictybase.est
+  title: Dictybase Gene at Northwestern University
+  redirect: http://dictybase.org/db/cgi-bin/feature_page.pl?primary_id=$id
+  test: DDB0016567
+  more: http://dictybase.org/
+
+- namespace: dictybase.gene
+  title: Dictybase Gene at Northwestern University
+  redirect: http://dictybase.org/gene/$id
+  test: DDB_G0267522
+  more: http://dictybase.org/
+
+- namespace: dip
+  title: Database of interacting proteins
+  redirect: http://dip.doe-mbi.ucla.edu/dip/DIPview.cgi?ID=$id
+  test: DIP-743N
+  more: http://dip.doe-mbi.ucla.edu/
+
+- namespace: disprot
+  title: DisProt at Indiana University
+  redirect: http://www.disprot.org/$id
+  test: DP00003
+  more: http://www.disprot.org/
+
+- namespace: doi
+  title: Digital Object Identifier
+  redirect: http://doi.org/$id
+  test: 10.1038/nbt1156
+  more: http://www.doi.org/
+
+- namespace: doi
+  provider: z024
+  title: CNRI DOI Resolver
+  redirect: http://hdl.handle.net/$id
+  test: 10.1038/nbt1156
+  more: http://www.handle.net/index.html
+
+- namespace: doi
+  provider: z025
+  title: DOAI (Digital Open Access Identifier) at CAPSH
+  redirect: http://doai.io/$id
+  test: 10.1038/nbt1156
+  more: http://doai.io/
+
+- namespace: doid
+  title: Human Disease Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/DOID/DOID:$id
+  test: 11337
+  more: http://bioportal.bioontology.org/ontologies/DOID
+
+- namespace: doid
+  provider: ols
+  title: Human Disease Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/doid/terms?obo_id=DOID:$id
+  test: 11337
+  more: http://www.ebi.ac.uk/ols/ontologies/doid
+
+- namespace: doid
+  provider: z048
+  title: Human Disease Ontology at Northwestern University
+  redirect: http://disease-ontology.org/term/DOID:$id
+  test: 11337
+  more: http://disease-ontology.org/
+
+- namespace: dommino
+  title: DOMMINO at University of Missouri
+  redirect: http://orion.rnet.missouri.edu/~nz953/DOMMINO/index.php/result/show_network/$id
+  test: 2GC4
+  more: http://dommino.org/
+
+- namespace: door
+  title: DOOR v1 at University of Georgia
+  redirect: http://csbl1.bmb.uga.edu/OperonDB/genedetail.php?id=$id
+  test: 60101
+  more: http://csbl1.bmb.uga.edu/OperonDB/DOOR.php
+
+- namespace: doqcs.model
+  title: Database of Quantitative Cellular Signaling (DOQCS) - Model Access
+  redirect: http://doqcs.ncbs.res.in/template.php?&y=accessiondetails&an=$id
+  test: 57
+  more: http://doqcs.ncbs.res.in/
+
+- namespace: doqcs.pathway
+  title: Database of Quantitative Cellular Signaling (DOQCS) - Pathway Access
+  redirect: http://doqcs.ncbs.res.in/template.php?&y=pathwaydetails&pn=$id
+  test: 131
+  more: http://doqcs.ncbs.res.in/
+
+- namespace: dpv
+  title: DPV at Rothamsted
+  redirect: http://www.dpvweb.net/dpv/showdpv.php?dpvno=$id
+  test: 100
+  more: http://www.dpvweb.net/
+
+- namespace: dragondb.allele
+  title: DragonDB Allele at University of British Columbia
+  redirect: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=$id&amp;class=Allele
+  test: cho
+  more: http://www.antirrhinum.net/
+
+- namespace: dragondb.dna
+  title: DragonDB DNA at University of British Columbia
+  redirect: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=$id;class=DNA
+  test: 3hB06
+  more: http://www.antirrhinum.net/
+
+- namespace: dragondb.locus
+  title: DragonDB Locus at University of British Columbia
+  redirect: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=$id&amp;class=Locus
+  test: DEF
+  more: http://www.antirrhinum.net/
+
+- namespace: dragondb.protein
+  title: DragonDB Protein at University of British Columbia
+  redirect: http://antirrhinum.net/cgi-bin/ace/generic/tree/DragonDB?name=$id;class=Peptide
+  test: AMDEFA
+  more: http://www.antirrhinum.net/
+
+- namespace: drsc
+  title: DRSC at Harvard Medical School
+  redirect: http://www.flyrnai.org/cgi-bin/RNAi_gene_lookup_public.pl?gname=$id
+  test: DRSC05221
+  more: http://flyrnai.org/
+
+- namespace: drugbank
+  title: DrugBank drug information
+  redirect: http://www.drugbank.ca/drugs/$id
+  test: DB00001
+  more: http://www.drugbank.ca/
+
+- namespace: drugbank
+  provider: z041
+  title: Bio2RDF
+  redirect: http://drugbank.bio2rdf.org/describe/?url=http://bio2rdf.org/drugbank:$id
+  test: DB00001
+  more: http://drugbank.bio2rdf.org/fct/
+
+- namespace: drugbankv4.target
+  title: DrugBank Target information version 4
+  redirect: http://www.drugbank.ca/biodb/bio_entities/$id
+  test: BE0000048
+  more: http://www.drugbank.ca/targets
+
+- namespace: ebimetagenomics.proj
+  title: EBI metagenomics projects at EBI
+  redirect: https://www.ebi.ac.uk/metagenomics/projects/$id
+  test: ERP004492
+  more: https://www.ebi.ac.uk/metagenomics
+
+- namespace: ebimetagenomics.samp
+  title: EBI Metagenomics at European Bioinformatics Institute
+  redirect: http://www.ebi.ac.uk/metagenomics/samples/$id
+  test: SRS086444
+  more: http://www.ebi.ac.uk/metagenomics
+
+- namespace: ec-code
+  alias: ec
+  title: IntEnZ (Integrated relational Enzyme database)
+  redirect: http://www.ebi.ac.uk/intenz/query?cmd=SearchEC&ec=$id
+  test: 1.1.1.1
+  more: http://www.ebi.ac.uk/intenz/
+
+- namespace: ec-code
+  provider: expazy
+  alias: ec
+  title: Enzyme nomenclature database, ExPASy (Expert Protein Analysis System)
+  redirect: http://enzyme.expasy.org/EC/$id
+  test: 1.1.1.1
+  more: http://enzyme.expasy.org/
+
+- namespace: ec-code
+  provider: expenz
+  alias: ec
+  title: ExploreEnz at Trinity College
+  redirect: http://www.enzyme-database.org/query.php?ec=$id
+  test: 1.1.1.1
+  more: http://www.enzyme-database.org/
+
+- namespace: ec-code
+  provider: z014
+  alias: ec
+  title: KEGG Ligand Database for Enzyme Nomenclature
+  redirect: http://www.genome.jp/dbget-bin/www_bget?ec:$id
+  test: 1.1.1.1
+  more: http://www.genome.jp/dbget-bin/www_bfind?enzyme
+
+- namespace: echobase
+  title: EchoBASE at the University of York
+  redirect: http://www.york.ac.uk/res/thomas/Gene.cfm?recordID=$id
+  test: EB0170
+  more: http://www.york.ac.uk/
+
+- namespace: eco
+  title: Evidence Codes via the Ontology Lookup Service (OLS)
+  redirect: http://www.ebi.ac.uk/ols/ontologies/eco/terms?obo_id=ECO:$id
+  test: 0000006
+  more: http://www.ebi.ac.uk/ols/ontologies/eco
+
+- namespace: eco
+  provider: bptl
+  title: Evidence Code Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/ECO/ECO:$id
+  test: 0000006
+  more: http://bioportal.bioontology.org/ontologies/ECO
+
+- namespace: ecogene
+  title: EcoGene at University of Miami
+  redirect: http://www.ecogene.org/gene/$id
+  test: EG10173
+  more: http://ecogene.org/
+
+- namespace: ecoliwiki
+  title: EcoliWiki at Texas Agrilife Research
+  redirect: http://ecoliwiki.net/colipedia/index.php/$id:Gene
+  test: aaeA
+  more: http://ecoliwiki.net/colipedia/
+
+- namespace: edam
+  title: EDAM through BioPortal
+  redirect: http://purl.bioontology.org/ontology/EDAM/$id
+  test: data_1664
+  more: http://bioportal.bioontology.org/ontologies/EDAM
+
+- namespace: edam
+  provider: ols
+  title: EDAM through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/edam/terms?short_form=$id
+  test: data_1664
+  more: http://www.ebi.ac.uk/ols/ontologies/edam
+
+- namespace: efo
+  title: EFO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/efo/terms?obo_id=EFO:$id
+  test: 0004859
+  more: http://www.ebi.ac.uk/ols/ontologies/efo
+
+- namespace: efo
+  provider: bptl
+  title: EFO through BioPortal
+  redirect: http://purl.bioontology.org/ontology/EFO/efo:EFO_$id
+  test: 0004859
+  more: http://bioportal.bioontology.org/ontologies/EFO
+
+- namespace: efo
+  provider: ebi
+  title: EFO through Functional Genomics Group (EBI)
+  redirect: http://www.ebi.ac.uk/efo/EFO_$id
+  test: 0004859
+  more: http://www.ebi.ac.uk/efo/
+
+- namespace: ega.dataset
+  title: EGA Dataset at European Bioinformatics Institute
+  redirect: https://www.ebi.ac.uk/ega/datasets/$id
+  test: EGAD00000000001
+  more: https://www.ebi.ac.uk/ega/dataset
+
+- namespace: ega.study
+  title: EGA Study at European Bioinformatics Institute
+  redirect: https://www.ebi.ac.uk/ega/studies/$id
+  test: EGAS00000000001
+  more: https://www.ebi.ac.uk/ega/studies
+
+- namespace: eggnog
+  title: eggNOG Version 3 at European Molecular Biology Laboratory
+  redirect: http://eggnog.embl.de/version_3.0/cgi/search.py?search_term_0=$id
+  test: veNOG12876
+  more: http://eggnog.embl.de/version_3.0/
+
+- namespace: elm
+  title: ELM at EMBL (Germany)
+  redirect: http://elm.eu.org/elms/elmPages/$id.html
+  test: CLV_MEL_PAP_1
+  more: http://elm.eu.org/
+
+- namespace: emdb
+  title: EMDB at Protein Data Bank in Europe
+  redirect: http://www.ebi.ac.uk/pdbe/entry/emdb/$id
+  test: EMD-1001
+  more: http://www.ebi.ac.uk/pdbe/emdb/
+
+- namespace: ena.embl
+  title: ENA at European Bioinformatics Institute
+  redirect: http://www.ebi.ac.uk/ena/data/view/$id
+  test: BN000065
+  more: http://www.ebi.ac.uk/ena/
+
+- namespace: ensembl
+  title: Ensembl at Sanger/EMBL-EBI
+  redirect: http://www.ensembl.org/id/$id
+  test: ENSG00000139618
+  more: http://www.ensembl.org/
+
+- namespace: ensembl
+  provider: z011
+  title: Ensembl US West mirror
+  redirect: http://uswest.ensembl.org/id/$id
+  test: ENSG00000139618
+  more: http://uswest.ensembl.org/
+
+- namespace: ensembl
+  provider: z012
+  title: Ensembl US East mirror
+  redirect: http://useast.ensembl.org/id/$id
+  test: ENSG00000139618
+  more: http://useast.ensembl.org/
+
+- namespace: ensembl
+  provider: z013
+  title: Ensembl Asia mirror
+  redirect: http://asia.ensembl.org/id/$id
+  test: ENSG00000139618
+  more: http://asia.ensembl.org/
+
+- namespace: ensembl.bacteria
+  title: Ensembl Bacteria at EBI
+  redirect: http://bacteria.ensembl.org/id/$id
+  test: MU9_3181
+  more: http://bacteria.ensembl.org/
+
+- namespace: ensembl.fungi
+  title: Enzembl Fungi at EBI
+  redirect: http://fungi.ensembl.org/id/$id
+  test: CADAFLAT00006211
+  more: http://fungi.ensembl.org/
+
+- namespace: ensembl.metazoa
+  title: Enzembl Metazoa at EBI
+  redirect: http://metazoa.ensembl.org/id/$id
+  test: FBtr0084214
+  more: http://metazoa.ensembl.org/
+
+- namespace: ensembl.plant
+  title: Enzembl Plants at EBI
+  redirect: http://plants.ensembl.org/id/$id
+  test: AT1G73965
+  more: http://plants.ensembl.org/
+
+- namespace: ensembl.protist
+  title: Ensembl Protists at EBI
+  redirect: http://protists.ensembl.org/id/$id
+  test: PFC0120w
+  more: http://protists.ensembl.org
+
+- namespace: eo
+  title: Plant Environment Ontology through Gramene
+  redirect: http://archive.gramene.org/db/ontology/search?query=EO:$id
+  test: 0007404
+  more: http://archive.gramene.org/db/ontology/search_term?id=EO:0007359
+
+- namespace: eo
+  provider: bptl
+  title: Plant Environment Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/PECO/EO:$id
+  test: 0007404
+  more: http://bioportal.bioontology.org/ontologies/PECO
+
+- namespace: eo
+  provider: ols
+  title: Plant Environment Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/eo/terms?obo_id=EO:$id
+  test: 0007404
+  more: http://www.ebi.ac.uk/ols/ontologies/eo
+
+- namespace: epd
+  title: EPD at Swiss Institute of Bioinformatics
+  redirect: http://epd.vital-it.ch/cgi-bin/query_result.pl?out_format=NICE&Entry_0=$id
+  test: TA_H3
+  more: http://epd.vital-it.ch/
+
+- namespace: euclinicaltrials
+  title: EU Clinical Trials at  European Medicines Agency
+  redirect: https://www.clinicaltrialsregister.eu/ctr-search/search?query=$id
+  test: 2008-005144-16
+  more: https://www.clinicaltrialsregister.eu/
+
+- namespace: exac.gene
+  title: ExAC Gene at Exome Aggregation Consortium
+  redirect: http://exac.broadinstitute.org/gene/$id
+  test: ENSG00000169174
+  more: http://exac.broadinstitute.org/
+
+- namespace: exac.transcript
+  title: ExAC Transcript at Exome Aggregation Consortium
+  redirect: http://exac.broadinstitute.org/transcript/$id
+  test: ENST00000407236
+  more: http://exac.broadinstitute.org/
+
+- namespace: exac.variant
+  title: ExAC Variant at Exome Aggregation Consortium
+  redirect: http://exac.broadinstitute.org/variant/$id
+  test: 22-46615880-T-C
+  more: http://exac.broadinstitute.org/
+
+- namespace: fbol
+  title: Fungal Barcode at Fungal Biodiversity Centre
+  redirect: http://www.fungalbarcoding.org/BioloMICS.aspx?Table=Fungal barcodes&Rec=$id&Fields=All&ExactMatch=T
+  test: 2224
+  more: http://www.fungalbarcoding.org/
+
+- namespace: flybase
+  title: The FlyBase Database
+  redirect: http://flybase.org/reports/$id.html
+  test: FBgn0011293
+  more: http://flybase.org/
+
+- namespace: flystock
+  title: Flystock at Indiana University
+  redirect: http://flystocks.bio.indiana.edu/Reports/$id.html
+  test: 33159
+  more: http://flystocks.bio.indiana.edu/bloomhome.htm
+
+- namespace: fma
+  title: Foundational Model of Anatomy via Ontology Lookup Service (OLS)
+  redirect: http://www.ebi.ac.uk/ols/ontologies/fma/terms?obo_id=FMA:$id
+  test: 67112
+  more: http://www.ebi.ac.uk/ols/ontologies/fma/
+
+- namespace: fma
+  provider: bptl
+  title: Foundational Model of Anatomy through BioPortal
+  redirect: http://purl.bioontology.org/ontology/FMA_subset/FMA:$id
+  test: 67112
+  more: http://bioportal.bioontology.org/ontologies/FMA
+
+- namespace: foodb.compound
+  title: FooDB database of food additives at University of Alberta
+  redirect: http://foodb.ca/compounds/$id
+  test: FDB002100
+  more: http://foodb.ca/foods
+
+- namespace: fsnp
+  title: F-SNP at Queen's University (Canada)
+  redirect: http://compbio.cs.queensu.ca/cgi-bin/compbio/search/main.cgi?search_mode=id&amp;id_type=snp_id&amp;id_val=$id
+  test: rs17852708
+  more: http://compbio.cs.queensu.ca/F-SNP/
+
+- namespace: funcat
+  title: FunCat at MIPS (Neuherberg)
+  redirect: http://mips.helmholtz-muenchen.de/funcatDB/cgi-bin/search_advanced.pl?action=2&wert=$id
+  test: 32.01.01
+  more: http://mips.helmholtz-muenchen.de/funcatDB/
+
+- namespace: funcbase.fly
+  title: FuncBase Fly at Harvard Medical School
+  redirect: http://func.mshri.on.ca/fly/genes/list_functional_scores/$id
+  test: 10194
+  more: http://func.mshri.on.ca/fly
+
+- namespace: funcbase.human
+  title: FuncBase Human at Harvard Medical School
+  redirect: http://func.mshri.on.ca/human/genes/list_functional_scores/$id
+  test: 119514
+  more: http://func.mshri.on.ca/human/
+
+- namespace: funcbase.mouse
+  title: FuncBase Mouse at Harvard Medical School
+  redirect: http://func.mshri.on.ca/mouse/genes/list_functional_scores/$id
+  test: 1351341
+  more: http://func.mshri.on.ca/mouse/
+
+- namespace: funcbase.yeast
+  title: FuncBase Yeast at Harvard Medical School
+  redirect: http://func.mshri.on.ca/yeast/genes/list_functional_scores/$id
+  test: 2701
+  more: http://func.mshri.on.ca/yeast
+
+- namespace: fungidb
+  title: FungiDB at University of California
+  redirect: http://fungidb.org/gene/$id
+  test: CNBG_0001
+  more: http://FungiDB.org
+
+- namespace: gabi
+  title: GABI at Max Planck
+  redirect: http://www.gabipd.org/database/cgi-bin/GreenCards.pl.cgi?BioObjectId=$id&Mode=ShowBioObject
+  test: 2679240
+  more: http://www.gabipd.org/
+
+- namespace: genatlas
+  title: Genatlas at Paris Descartes University
+  redirect: http://genatlas.medecine.univ-paris5.fr/fiche.php?symbol=$id
+  test: HBB
+  more: http://genatlas.medecine.univ-paris5.fr/
+
+- namespace: genecards
+  title: GeneCards at Weizmann Institute
+  redirect: http://www.genecards.org/cgi-bin/carddisp.pl?gene=$id
+  test: ABL1
+  more: http://www.genecards.org/
+
+- namespace: genedb
+  title: GeneDB at Sanger Institute
+  redirect: http://www.genedb.org/gene/$id
+  test: Cj1536c
+  more: http://www.genedb.org/
+
+- namespace: genefarm
+  title: GeneFarm at Unit√© de Recherche en G√©nomique V√©g√©tale
+  redirect: https://urgi.versailles.inra.fr/Genefarm/Gene/display_gene.htpl?GENE_ID=$id
+  test: 4892
+  more: http://urgi.versailles.inra.fr/Genefarm/
+
+- namespace: genetree
+  title: GeneTree at Ensembl
+  redirect: http://www.ensembl.org/Multi/GeneTree/Image?db=core;gt=$id
+  test: ENSGT00550000074763
+  more: http://www.ensembl.org/
+
+- namespace: genewiki
+  title: Gene Wiki through BioGPS
+  redirect: http://plugins.biogps.org/cgi-bin/wp.cgi?id=$id
+  test: 1017
+  more: http://en.wikipedia.org/wiki/Gene_Wiki
+
+- namespace: genpept
+  title: GenPept at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/protein/$id?report=genpept
+  test: CAA71118.1
+  more: http://www.ncbi.nlm.nih.gov/protein
+
+- namespace: geo
+  title: Gene Expression Omnibus at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/sites/GDSbrowser?acc=$id
+  test: GDS1234
+  more: http://www.ncbi.nlm.nih.gov/geo/
+
+- namespace: giardiadb
+  title: GiardiaDB at EuPathDB
+  redirect: http://giardiadb.org/giardiadb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: GL50803_102438
+  more: http://giardiadb.org/giardiadb/
+
+- namespace: glida.gpcr
+  title: GLIDA GPCR at Kyoto University
+  redirect: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/gpcr_information.php?id=$id
+  test: ACM1_HUMAN
+  more: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/
+
+- namespace: glida.ligand
+  title: GLIDA Ligand at Kyoto University
+  redirect: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/ligand_information.php?id=$id
+  test: L000001
+  more: http://pharminfo.pharm.kyoto-u.ac.jp/services/glida/
+
+- namespace: glycoepitope
+  title: GlycoEpitope at Ritsumeikan University
+  redirect: http://www.glycoepitope.jp/epitopes/$id
+  test: EP0311
+  more: http://www.glycoepitope.jp/epitopes/
+
+- namespace: glycomedb
+  title: GlycomeDB carbohydrate structure database
+  redirect: http://www.glycome-db.org/database/showStructure.action?glycomeId=$id
+  test: 1
+  more: http://www.glycome-db.org/showMenu.action?major=database
+
+- namespace: gmd
+  title: Golm Metabolome Database at Max Planck Institute of Molecular Plant Physiology
+  redirect: http://gmd.mpimp-golm.mpg.de/Metabolites/$id.aspx
+  test: 68513255-fc44-4041-bc4b-4fd2fae7541d
+  more: http://gmd.mpimp-golm.mpg.de/
+
+- namespace: gmd.analyte
+  title: Golm Metabolome Database (Analyte) at Max Planck Institute of Molecular Plant Physiology
+  redirect: http://gmd.mpimp-golm.mpg.de/Analytes/$id
+  test: 4f0fa9b6-514f-4ff4-98cc-0009bc08eb80
+  more: http://gmd.mpimp-golm.mpg.de/
+
+- namespace: gmd.gcms
+  title: Golm Metabolome Database (GC-MS Spectra) at Max Planck Institute of Molecular Plant Physiology
+  redirect: http://gmd.mpimp-golm.mpg.de/Spectrums/$id
+  test: 53d583d8-40c6-40e1-9296-23f821cd77a5
+  more: http://gmd.mpimp-golm.mpg.de/
+
+- namespace: gmd.profile
+  title: Golm Metabolome Database (Profile) at Max Planck Institute of Molecular Plant Physiology
+  redirect: http://gmd.mpimp-golm.mpg.de/profile/default.aspx?XemlId=$id
+  test: 10b38aaf-b977-4950-85b8-f4775f66658d
+  more: http://gmd.mpimp-golm.mpg.de/
+
+- namespace: gmd.ref
+  title: Golm Metabolome Database (Reference Substance) at Max Planck Institute of Molecular Plant Physiology
+  redirect: http://gmd.mpimp-golm.mpg.de/ReferenceSubstances/$id
+  test: 8cf84adb-b4db-4807-ac98-0004247c35df
+  more: http://gmd.mpimp-golm.mpg.de/
+
+- namespace: go
+  title: QuickGO (Gene Ontology browser)
+  redirect: http://www.ebi.ac.uk/QuickGO/GTerm?id=GO:$id
+  test: 0006915
+  more: http://www.ebi.ac.uk/QuickGO/
+
+- namespace: go
+  provider: amigo
+  title: AmiGO 2
+  redirect: http://amigo.geneontology.org/amigo/term/GO:$id
+  test: 0006915
+  more: http://amigo.geneontology.org/
+
+- namespace: go
+  provider: bptl
+  title: GO through BioPortal
+  redirect: http://purl.bioontology.org/ontology/GO/GO:$id
+  test: 0006915
+  more: http://bioportal.bioontology.org/ontologies/GO
+
+- namespace: go
+  provider: ols
+  title: GO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/go/terms?obo_id=GO:$id
+  test: 0006915
+  more: http://www.ebi.ac.uk/ols/ontologies/go
+
+- namespace: go
+  provider: z027
+  title: GO Browser
+  redirect: http://www.informatics.jax.org/searches/GO.cgi?id=GO:$id
+  test: 0006915
+  more: http://www.informatics.jax.org/searches/GO_form.shtml
+
+- namespace: go
+  provider: z028
+  title: GO through PANTHER
+  redirect: http://www.pantherdb.org/panther/category.do?categoryAcc=GO:$id
+  test: 0000003
+  more: http://www.pantherdb.org/
+
+- namespace: go.ref
+  title: Gene Ontology Reference at The Gene Ontology Consortium
+  redirect: http://www.geneontology.org/cgi-bin/references.cgi#$id
+  test: GO_REF:0000041
+  more: http://www.geneontology.org/cgi-bin/references.cgi
+
+- namespace: goa
+  title: GOA through QuickGO
+  redirect: http://www.ebi.ac.uk/QuickGO/GProtein?ac=$id
+  test: P12345
+  more: http://www.ebi.ac.uk/GOA/
+
+- namespace: gold.genome
+  title: GOLD genome at Department of Energy Joint Genome Institute
+  redirect: http://www.genomesonline.org/cgi-bin/GOLD/GOLDCards.cgi?goldstamp=$id
+  test: Gi07796
+  more: http://www.genomesonline.org/cgi-bin/GOLD/index.cgi
+
+- namespace: gold.meta
+  title: GOLD metadata at Department of Energy Joint Genome Institute
+  redirect: http://genomesonline.org/cgi-bin/GOLD/bin/GOLDCards.cgi?goldstamp=$id
+  test: Gm00047
+  more: http://www.genomesonline.org/cgi-bin/GOLD/index.cgi
+
+- namespace: google.patent
+  title: Google Patents at Google
+  redirect: https://www.google.com/patents/$id
+  test: US4145692
+  more: https://www.google.com/patents/
+
+- namespace: gpcrdb
+  title: GPCRDB at Radboud University
+  redirect: http://www.gpcrdb.org/protein/$id/
+  test: RL3R1_HUMAN
+  more: http://www.gpcrdb.org/
+
+- namespace: gramene.gene
+  title: Gramene Genes at Cold Spring Harbor
+  redirect: http://www.gramene.org/db/genes/search_gene?acc=$id
+  test: GR:0080039
+  more: http://www.gramene.org/
+
+- namespace: gramene.growthstage
+  title: Gramene Growth Stage Ontology at Cold Spring Harbor
+  redirect: http://www.gramene.org/db/ontology/search?id=GRO:$id
+  test: 0007133
+  more: http://www.gramene.org/
+
+- namespace: gramene.protein
+  title: Gramene Protein at Cold Spring Harbor
+  redirect: http://www.gramene.org/db/protein/protein_search?protein_id=$id
+  test: 78073
+  more: http://www.gramene.org/
+
+- namespace: gramene.qtl
+  title: Gramene Quantitative Trait Loci at Cold Spring Harbor
+  redirect: http://www.gramene.org/db/qtl/qtl_display?qtl_accession_id=$id
+  test: CQG5
+  more: http://www.gramene.org/
+
+- namespace: gramene.taxonomy
+  title: Gramene Taxonomy at Cold Spring Harbor
+  redirect: http://www.gramene.org/db/ontology/search?id=$id
+  test: GR_tax:013681
+  more: http://www.gramene.org/
+
+- namespace: greengenes
+  title: GreenGenes at Lawrence Berkeley
+  redirect: http://greengenes.lbl.gov/cgi-bin/show_one_record_v2.pl?prokMSA_id=$id
+  test: 100000
+  more: http://greengenes.lbl.gov/
+
+- namespace: grid
+  title: Global Research Identifier Database
+  redirect: https://www.grid.ac/institutes/grid.$id
+  test: 419696.5
+  more: https://www.grid.ac/
+
+- namespace: grin.taxonomy
+  title: GRIN at Maryland
+  redirect: http://www.ars-grin.gov/cgi-bin/npgs/html/taxon.pl?$id
+  test: 19333
+  more: http://www.ars-grin.gov/cgi-bin/npgs/html/index.pl?language=en
+
+- namespace: grsdb
+  title: GRSDB v2 at  Ramapo College of New Jersey
+  redirect: http://bioinformatics.ramapo.edu/GRSDB2/geneview.php?geneID=$id
+  test: 10142
+  more: http://bioinformatics.ramapo.edu/GRSDB2/
+
+- namespace: gwascentral.marker
+  title: GWAS Central Marker at University of Leicester
+  redirect: http://www.gwascentral.org/marker/$id
+  test: HGVM15354
+  more: http://www.gwascentral.org/markers/
+
+- namespace: gwascentral.phenotype
+  title: GWAS Central Phenotype at University of Leicester
+  redirect: http://www.gwascentral.org/phenotype/$id
+  test: HGVPM623
+  more: http://www.gwascentral.org/phenotypes
+
+- namespace: gwascentral.study
+  title: GWAS Central Study at University of Leicester
+  redirect: http://www.gwascentral.org/study/$id
+  test: HGVST1828
+  more: http://www.gwascentral.org/studies
+
+- namespace: gxa.expt
+  title: GXA Expt at EBI
+  redirect: http://www.ebi.ac.uk/gxa/experiments/$id
+  test: E-MTAB-2037
+  more: http://www.ebi.ac.uk/gxa/
+
+- namespace: gxa.gene
+  title: GXA Gene at EBI
+  redirect: http://www.ebi.ac.uk/gxa/genes/$id
+  test: AT4G01080
+  more: http://www.ebi.ac.uk/gxa/
+
+- namespace: hamap
+  title: HAPMAP at Swiss Institute of Bioinformatics
+  redirect: http://hamap.expasy.org/unirule/$id
+  test: MF_01400
+  more: http://hamap.expasy.org/
+
+- namespace: hcvdb
+  title: HCVDB at CNRS
+  redirect: https://euhcvdb.ibcp.fr/euHCVdb/do/displayHCVEntry?primaryAC=$id
+  test: M58335
+  more: http://euhcvdb.ibcp.fr/euHCVdb/
+
+- namespace: hdl
+  alias: handle
+  title: Handle System Identifier
+  redirect: http://hdl.handle.net/$id
+  test: 4263537/4000
+  more: http://www.handle.net
+
+- namespace: hdr
+  title: Homeodomain Research at National Human Genome Research Institute (NIH)
+  redirect: http://research.nhgri.nih.gov/apps/homeodomain/web/index.cgi?mode=view&amp;view=proteins&amp;id=$id
+  test: 63
+  more: http://research.nhgri.nih.gov/apps/homeodomain/web/
+
+- namespace: hgmd
+  title: HGMD at Cardiff University
+  redirect: http://www.hgmd.cf.ac.uk/ac/gene.php?gene=$id
+  test: CALM1
+  more: http://www.hgmd.cf.ac.uk/ac/index.php
+
+- namespace: hgnc
+  title: HUGO Genome Nomenclature Committee
+  redirect: http://www.genenames.org/cgi-bin/gene_symbol_report?hgnc_id=$id
+  test: 2674
+  more: http://www.genenames.org
+
+- namespace: hgnc
+  provider: z036
+  title: Bio2RDF
+  redirect: http://hgnc.bio2rdf.org/describe/?url=http://bio2rdf.org/$id
+  test: hgnc:2674
+  more: http://hgnc.bio2rdf.org/fct
+
+- namespace: hgnc.family
+  title: HGNC Family at HUGO Genome Nomenclature Committee
+  redirect: http://www.genenames.org/genefamilies/$id
+  test: PADI
+  more: http://www.genenames.org/
+
+- namespace: hgnc.genefamily
+  title: HGNC gene family at HUGO Genome Nomenclature Committee
+  redirect: http://www.genenames.org/cgi-bin/genefamilies/set/$id
+  test: 141
+  more: http://www.genenames.org/
+
+- namespace: hgnc.symbol
+  title: HGNC Symbol at HUGO Genome Nomenclature Committee
+  redirect: http://www.genenames.org/cgi-bin/gene_symbol_report?match=$id
+  test: DAPK1
+  more: http://www.genenames.org/
+
+- namespace: hinv.locus
+  title: H-Invitational Locus View at BIRC
+  redirect: http://h-invitational.jp/hinv/spsoup/locus_view?hix_id=$id
+  test: HIX0004394
+  more: http://h-invitational.jp/hinv/ahg-db/index.jsp
+
+- namespace: hinv.protein
+  title: H-Invitational Protein View at BIRC
+  redirect: http://h-invitational.jp/hinv/protein/protein_view.cgi?hip_id=$id
+  test: HIP000030660
+  more: http://h-invitational.jp/hinv/ahg-db/index.jsp
+
+- namespace: hinv.transcript
+  title: H-Invitational Transcript View at BIRC
+  redirect: http://h-invitational.jp/hinv/spsoup/transcript_view?hit_id=$id
+  test: HIT000195363
+  more: http://h-invitational.jp/hinv/ahg-db/index.jsp
+
+- namespace: hmdb
+  title: The Human Metabolome Database
+  redirect: http://www.hmdb.ca/metabolites/$id
+  test: HMDB00001
+  more: http://www.hmdb.ca/
+
+- namespace: hogenom
+  title: HOGENOM at CNRS
+  redirect: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?db=HOGENOM5&query=$id
+  test: HBG284870
+  more: http://pbil.univ-lyon1.fr/databases/hogenom/
+
+- namespace: homd.seq
+  title: HOMD sequence metainformation at The Forsyth Institute
+  redirect: http://www.homd.org/modules.php?op=modload&name=GenomeList&file=index&link=detailinfo&seqid=$id
+  test: SEQF1003
+  more: http://www.homd.org/index.php
+
+- namespace: homd.taxon
+  title: HOMD taxon information at The Forsyth Institute
+  redirect: http://www.homd.org/modules.php?op=modload&name=HOMD&file=index&oraltaxonid=$id&view=dynamic
+  test: 811
+  more: http://www.homd.org/index.php
+
+- namespace: homologene
+  title: Homologene at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/homologene/$id
+  test: 1000
+  more: http://www.ncbi.nlm.nih.gov/homologene/
+
+- namespace: homologene
+  provider: z053
+  title: Bio2RDF
+  redirect: http://homologene.bio2rdf.org/describe/?url=http://bio2rdf.org/homologene:$id
+  test: 1000
+  more: http://homologene.bio2rdf.org/fct
+
+- namespace: hovergen
+  title: Hovergen
+  redirect: http://pbil.univ-lyon1.fr/cgi-bin/view-tree.pl?query=$id&db=HOVERGEN
+  test: HBG004341
+  more: http://pbil.univ-lyon1.fr/databases/hovergen.php
+
+- namespace: hp
+  title: Human Phenotype Ontology at Institute for Medical Genetics and Human Genetics
+  redirect: http://compbio.charite.de/hpoweb/showterm?id=HP:$id
+  test: 0000118
+  more: http://human-phenotype-ontology.github.io/
+
+- namespace: hp
+  provider: ols
+  title: Human Phenotype Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/hp/terms?obo_id=HP:$id
+  test: 0000118
+  more: http://www.ebi.ac.uk/ols/ontologies/hp
+
+- namespace: hpa
+  title: Human Protein Atlas at AlbaNova University
+  redirect: http://www.proteinatlas.org/$id
+  test: ENSG00000026508
+  more: http://www.proteinatlas.org/
+
+- namespace: hpm.peptide
+  title: Human Proteome Map Peptide at Institute of Bioinformatics (Bangalore)
+  redirect: http://www.humanproteomemap.org/spectrum.php?pep_id=$id
+  test: 9606117
+  more: http://www.humanproteomemap.org/index.php
+
+- namespace: hpm.protein
+  title: Human Proteome Map Protein at Institute of Bioinformatics (Bangalore)
+  redirect: http://www.humanproteomemap.org/protein.php?hpm_id=$id
+  test: 1968
+  more: http://www.humanproteomemap.org/index.php
+
+- namespace: hprd
+  title: Human Protein Reference Database
+  redirect: http://www.hprd.org/protein/$id
+  test: 00001
+  more: http://www.hprd.org/
+
+- namespace: hssp
+  title: HSSP at EMBL
+  redirect: ftp://ftp.embl-heidelberg.de/pub/databases/protein_extras/hssp/$id.hssp.bz2
+  test: 102l
+  more: http://swift.cmbi.kun.nl/swift/hssp/
+
+- namespace: hssp
+  provider: z046
+  title: HSSP at CMBI
+  redirect: ftp://ftp.cmbi.ru.nl/pub/molbio/data/hssp/$id.hssp.bz2
+  test: 102l
+  more: ftp://ftp.cmbi.ru.nl/pub/molbio/data/hssp/
+
+- namespace: huge
+  title: HUGE at Kazusa DNA Research Institute
+  redirect: http://www.kazusa.or.jp/huge/gfpage/$id/
+  test: KIAA0001
+  more: http://www.kazusa.or.jp/huge/
+
+- namespace: icd
+  title: International Statistical Classification of Diseases and Related Health Problems
+  redirect: http://apps.who.int/classifications/icd10/browse/2010/en#/$id
+  test: C34
+  more: http://www.who.int/classifications/icd/en/
+
+- namespace: iceberg.element
+  title: ICEberg element at Shanghai Jiaotong University
+  redirect: http://db-mml.sjtu.edu.cn/ICEberg/feature_page.php?ice_id=$id
+  test: 100
+  more: http://db-mml.sjtu.edu.cn/ICEberg/
+
+- namespace: iceberg.family
+  title: ICEberg family at Shanghai Jiaotong University
+  redirect: http://db-mml.sjtu.edu.cn/ICEberg/browse_result.php?type=fam&fam_id=$id
+  test: 1
+  more: http://db-mml.sjtu.edu.cn/ICEberg/
+
+- namespace: ideal
+  title: IDEAL at Maebashi Institute of Technology
+  redirect: http://idp1.force.cs.is.nagoya-u.ac.jp/IDEAL/idealItem.php?id=$id
+  test: IID00001
+  more: http://www.ideal.force.cs.is.nagoya-u.ac.jp/IDEAL/
+
+- namespace: idot
+  title: IdoT via biomodels.net
+  redirect: http://biomodels.net/vocab/idot.rdf#$id
+  test: identifierPattern
+  more: http://identifiers.org/
+
+- namespace: igsn
+  title: International Geo Sample Number
+  redirect: doi.org/10.$id
+  test: 10273
+  more: http://www.geosamples.org/
+
+- namespace: imex
+  title: IMEx Consortium running at EBI
+  redirect: http://www.ebi.ac.uk/intact/imex/main.xhtml?query=$id
+  test: IM-19210-3
+  more: http://www.imexconsortium.org/
+
+- namespace: img.gene
+  title: Integrated Microbial Genomes Taxon at Lawrence Berkeley National Laboratory
+  redirect: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=GeneDetail&gene_oid=$id
+  test: 638309541
+  more: http://img.jgi.doe.gov/
+
+- namespace: img.taxon
+  title: Integrated Microbial Genomes Taxon at Lawrence Berkeley National Laboratory
+  redirect: http://img.jgi.doe.gov/cgi-bin/w/main.cgi?section=TaxonDetail&taxon_oid=$id
+  test: 648028003
+  more: http://img.jgi.doe.gov/
+
+- namespace: imgt.hla
+  title: IMGT HLA at EBI
+  redirect: http://www.ebi.ac.uk/cgi-bin/imgt/hla/get_allele.cgi?$id
+  test: A*01:01:01:01
+  more: http://www.ebi.ac.uk/imgt/hla/allele.html
+
+- namespace: imgt.ligm
+  title: IMGT LIGM through DKFZ (SRS)
+  redirect: http://genius.embnet.dkfz-heidelberg.de/menu/cgi-bin/srs7.1.3.1/wgetz?-id+4ktAl1fNMTA+-e+[IMGT:'$id']
+  test: M94112
+  more: http://genius.embnet.dkfz-heidelberg.de/
+
+- namespace: inchi
+  title: InChI through RDF Open Molecules
+  redirect: http://rdf.openmolecules.net/?$id
+  test: InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+  more: http://rdf.openmolecules.net/
+
+- namespace: inchi
+  provider: ebi
+  title: InChI through ChEBI
+  redirect: http://www.ebi.ac.uk/chebi/advancedSearchFT.do?searchString=$id
+  test: InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+  more: http://www.ebi.ac.uk/chebi/
+
+- namespace: inchi
+  provider: z060
+  title: InChI through Chemspider
+  redirect: http://www.chemspider.com/$id
+  test: InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+  more: http://www.chemspider.com/
+
+- namespace: inchi
+  provider: z061
+  title: InChI through NIST
+  redirect: http://webbook.nist.gov/cgi/cbook.cgi?$id
+  test: InChI=1S/C2H6O/c1-2-3/h3H,2H2,1H3
+  more: http://webbook.nist.gov/chemistry
+
+- namespace: inchikey
+  title: InChIKey through ChemSpider
+  redirect: http://www.chemspider.com/inchikey=$id
+  test: RYYVLZVUVIJVGH-UHFFFAOYSA-N
+  more: http://www.chemspider.com/
+
+- namespace: inchikey
+  provider: z063
+  title: InChiKey resolver at NCI
+  redirect: http://cactus.nci.nih.gov/chemical/structure/$id/names
+  test: RYYVLZVUVIJVGH-UHFFFAOYSA-N
+  more: http://cactus.nci.nih.gov/chemical/structure
+
+- namespace: insdc
+  title: INSDC through GenBank
+  redirect: http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=$id
+  test: X58356
+  more: http://www.ncbi.nlm.nih.gov/Genbank/
+
+- namespace: insdc
+  provider: ebi
+  title: INSDC through European Nucleotide Archive (ENA)
+  redirect: http://www.ebi.ac.uk/ena/data/view/$id
+  test: X58356
+  more: http://www.ebi.ac.uk/ena/
+
+- namespace: insdc
+  provider: z031
+  title: INSDC through DDBJ
+  redirect: http://getentry.ddbj.nig.ac.jp/getentry?database=ddbj&accession_number=$id
+  test: X58356
+  more: http://www.ddbj.nig.ac.jp/
+
+- namespace: insdc.sra
+  title: Sequence Read Archive at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/sra/$id?&report=full
+  test: SRX000007
+  more: http://www.ncbi.nlm.nih.gov/sra
+
+- namespace: insdc.sra
+  provider: ebi
+  title: European Nucleotide Archive (ENA)
+  redirect: http://www.ebi.ac.uk/ena/data/view/$id
+  test: SRX000007
+  more: http://www.ebi.ac.uk/ena
+
+- namespace: insdc.sra
+  provider: z049
+  title: DDBJ Sequence Read Archive (DRA)
+  redirect: http://trace.ddbj.nig.ac.jp/DRASearch/experiment?acc=$id
+  test: SRX000007
+  more: http://trace.ddbj.nig.ac.jp/dra/
+
+- namespace: intact
+  title: IntAct at EBI
+  redirect: http://www.ebi.ac.uk/intact/interaction/$id
+  test: EBI-2307691
+  more: http://www.ebi.ac.uk/intact/
+
+- namespace: intact.molecule
+  title: IntAct Molecule at EBI
+  redirect: http://www.ebi.ac.uk/intact/molecule/$id
+  test: EBI-366083
+  more: http://www.ebi.ac.uk/intact/
+
+- namespace: interpro
+  title: InterPro
+  redirect: http://www.ebi.ac.uk/interpro/entry/$id
+  test: IPR000100
+  more: http://www.ebi.ac.uk/interpro/
+
+- namespace: interpro
+  provider: z019
+  title: Bio2RDF
+  redirect: http://interpro.bio2rdf.org/describe/?url=http://bio2rdf.org/interpro:$id
+  test: IPR000100
+  more: http://interpro.bio2rdf.org/fct/
+
+- namespace: ird.segment
+  title: IRD at BioHealthBase
+  redirect: http://www.fludb.org/brc/fluSegmentDetails.do?ncbiGenomicAccession=$id
+  test: CY077097
+  more: http://www.fludb.org/
+
+- namespace: irefweb
+  title: iRefWeb Protein Interaction Reference Index
+  redirect: http://wodaklab.org/iRefWeb/interaction/show/$id
+  test: 617102
+  more: http://wodaklab.org/iRefWeb/
+
+- namespace: isbn
+  title: ISBNDB - ISBN Database
+  redirect: http://isbndb.com/search-all.html?kw=$id
+  test: 9781584885658
+  more: http://isbndb.com/
+
+- namespace: isbn
+  provider: z034
+  title: ISBN database at WorldCat
+  redirect: http://www.worldcat.org/isbn/$id
+  test: 9781584885658
+  more: http://www.worldcat.org/
+
+- namespace: isfinder
+  title: IS Finder at CNRS
+  redirect: https://www-is.biotoul.fr/scripts/ficheIS.php?name=$id
+  test: ISA1083-2
+  more: http://www-is.biotoul.fr/i
+
+- namespace: issn
+  title: ISSN at Library of Congress
+  redirect: https://catalog.loc.gov/vwebv/search?searchCode=STNO&searchArg=$id&searchType=1&recCount=25
+  test: 0745-4570
+  more: http://catalog.loc.gov/webvoy.htm
+
+- namespace: iuphar.family
+  title: The IUPHAR/BPS Guide to PHARMACOLOGY
+  redirect: http://www.guidetopharmacology.org/GRAC/FamilyDisplayForward?familyId=$id
+  test: 78
+  more: http://www.guidetopharmacology.org/
+
+- namespace: iuphar.ligand
+  title: IUPHAR ligand at University of Edinburgh
+  redirect: http://www.guidetopharmacology.org/GRAC/LigandDisplayForward?ligandId=$id
+  test: 1755
+  more: http://www.guidetopharmacology.org/GRAC/LigandListForward?database=all
+
+- namespace: iuphar.receptor
+  title: IUPHAR Receptor at University of Edinburgh
+  redirect: http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=$id
+  test: 101
+  more: http://www.guidetopharmacology.org/targets.jsp
+
+- namespace: jaxmice
+  title: JAX Mice at Jackson Laboratory
+  redirect: http://jaxmice.jax.org/strain/$id.html
+  test: 005012
+  more: http://jaxmice.jax.org/
+
+- namespace: jcggdb
+  title: JCGGDB at Advanced Science Institute (Japan)
+  redirect: http://jcggdb.jp/idb/jcggdb/$id
+  test: JCGG-STR008690
+  more: http://jcggdb.jp/index_en.html
+
+- namespace: jcm
+  title: JCM at RIKEN BioResource Center
+  redirect: http://www.jcm.riken.go.jp/cgi-bin/jcm/jcm_number?JCM=$id
+  test: 17254
+  more: http://www.jcm.riken.go.jp/
+
+- namespace: jcsd
+  title: Japan Chemical Substance Dictionary
+  redirect: http://jglobal.jst.go.jp/en/redirect?Nikkaji_No=$id
+  test: J55.713G
+  more: http://jglobal.jst.go.jp/en/
+
+- namespace: jstor
+  title: JSTOR Online
+  redirect: http://www.jstor.org/stable/$id
+  test: 3075966
+  more: http://www.jstor.org/
+
+- namespace: jws
+  title: JWS Online Model Repository at Stellenbosch
+  redirect: http://jjj.biochem.sun.ac.za/models/$id/
+  test: curien
+  more: http://jjj.biochem.sun.ac.za/models/
+
+- namespace: jws
+  provider: z042
+  title: JWS Online Model Repository at Amsterdam
+  redirect: http://jjj.bio.vu.nl/models/$id/
+  test: curien
+  more: http://jjj.bio.vu.nl/models/
+
+- namespace: jws
+  provider: z043
+  title: JWS Online Model Repository at Manchester
+  redirect: http://jjj.mib.ac.uk/models/$id
+  test: curien
+  more: http://jjj.mib.ac.uk/index.html
+
+- namespace: kegg
+  title: KEGG at Kyoto University Bioinformatics Center
+  redirect: http://www.kegg.jp/entry/$id
+  test: hsa00190
+  more: http://www.kegg.jp/
+
+- namespace: kegg.compound
+  title: KEGG LIGAND Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: C12345
+  more: http://www.genome.jp/kegg/ligand.html
+
+- namespace: kegg.disease
+  title: KEGG Disease at Kyoto University Bioinformatics Center
+  redirect: http://www.kegg.jp/entry/$id
+  test: H00076
+  more: http://www.genome.jp/kegg/disease/
+
+- namespace: kegg.drug
+  title: KEGG DRUG Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: D00123
+  more: http://www.genome.jp/kegg/drug/
+
+- namespace: kegg.environ
+  title: KEGG ENVIRON Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: ev:E00032
+  more: http://www.genome.jp/kegg/drug/environ.html
+
+- namespace: kegg.genes
+  title: KEGG GENES Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: syn:ssr3451
+  more: http://www.genome.jp/kegg/genes.html
+
+- namespace: kegg.genome
+  title: KEGG Genome Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: eco
+  more: http://www.genome.jp/kegg/catalog/org_list.html
+
+- namespace: kegg.glycan
+  title: KEGG GLYCAN Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: G00123
+  more: http://www.genome.jp/kegg/glycan/
+
+- namespace: kegg.metagenome
+  title: KEGG Metagenome Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: T30002
+  more: http://www.genome.jp/kegg/catalog/org_list3.html
+
+- namespace: kegg.module
+  title: KEGG Module at Kyoto University Bioinformatics Center
+  redirect: http://www.kegg.jp/entry/$id
+  test: M00002
+  more: http://www.kegg.jp/kegg/module.html
+
+- namespace: kegg.orthology
+  title: KEGG Orthology Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: K00001
+  more: http://www.genome.jp/kegg/ko.html
+
+- namespace: kegg.pathway
+  title: KEGG PATHWAY Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: hsa00620
+  more: http://www.genome.jp/kegg/pathway.html
+
+- namespace: kegg.reaction
+  title: KEGG Reaction Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: R00100
+  more: http://www.genome.jp/kegg/reaction/
+
+- namespace: knapsack
+  title: KnapSack at Nara Institute
+  redirect: http://kanaya.naist.jp/knapsack_jsp/information.jsp?word=$id
+  test: C00000001
+  more: http://kanaya.aist-nara.ac.jp/KNApSAcK/
+
+- namespace: lgic
+  title: Ligand-Gated Ion Channel database at EBI
+  redirect: http://www.ebi.ac.uk/compneur-srv/LGICdb/HTML/$id.php
+  test: 5HT3Arano
+  more: http://www.ebi.ac.uk/compneur-srv/LGICdb/LGICdb.php
+
+- namespace: ligandbox
+  title: LigandBox at
+  redirect: http://ligandbox.protein.osaka-u.ac.jp/ligandbox/cgi-bin/liginf.cgi?id=$id
+  test: D00001
+  more: http://ligandbox.protein.osaka-u.ac.jp/ligandbox//cgi-bin/index.cgi?LANG=en
+
+- namespace: ligandexpo
+  title: Ligand Expo at RutgersRCSB PDB
+  redirect: http://ligand-depot.rutgers.edu/pyapps/ldHandler.py?formid=cc-index-search&target=$id&operation=ccid
+  test: ABC
+  more: http://ligand-depot.rutgers.edu/index.html
+
+- namespace: ligandexpo
+  provider: z033
+  title: Ligand Expo at Rutgers
+  redirect: http://ligand-expo.rcsb.org/pyapps/ldHandler.py?formid=cc-index-search&target=$id&operation=ccid
+  test: ABC
+  more: http://ligand-expo.rcsb.org/
+
+- namespace: lincs.cell
+  title: LINCS Cell at Harvard Medical School
+  redirect: http://lincs.hms.harvard.edu/db/cells/$id/
+  test: 50002
+  more: http://lincs.hms.harvard.edu/db/cells/
+
+- namespace: lincs.molecule
+  title: LINCS Molecule at Harvard Medical School
+  redirect: http://lincs.hms.harvard.edu/db/sm/$id/
+  test: 10001-101
+  more: http://lincs.hms.harvard.edu/db/sm/
+
+- namespace: lincs.protein
+  title: LINCS Protein at Harvard Medical School
+  redirect: http://lincs.hms.harvard.edu/db/proteins/$id/
+  test: 200282
+  more: http://lincs.hms.harvard.edu/db/proteins/
+
+- namespace: lipidbank
+  title: LipidBank the Lipid database
+  redirect: http://lipidbank.jp/cgi-bin/detail.cgi?id=$id
+  test: BBA0001
+  more: http://lipidbank.jp/index.html
+
+- namespace: lipidmaps
+  title: Department of Bioengineering and the San Diego Supercomputer Center
+  redirect: http://www.lipidmaps.org/data/LMSDRecord.php?LMID=$id
+  test: LMPR0102010012
+  more: http://www.lipidmaps.org
+
+- namespace: lrg
+  title: Locus Reference Genomic at University of Leicester
+  redirect: ftp://ftp.ebi.ac.uk/pub/databases/lrgex/$id.xml
+  test: LRG_1
+  more: http://www.lrg-sequence.org/
+
+- namespace: lrg
+  provider: z056
+  title: Locus Reference Genomic through Ensembl
+  redirect: http://www.ensembl.org/Homo_sapiens/LRG/Summary?lrg=$id
+  test: LRG_1
+  more: http://www.ensembl.org/
+
+- namespace: lrg
+  provider: z057
+  title: Locus Reference Genomic through Ensembl mirror (asia)
+  redirect: http://asia.ensembl.org/Homo_sapiens/LRG/Summary?lrg=$id
+  test: LRG_1
+  more: http://asia.ensembl.org/
+
+- namespace: lrg
+  provider: z058
+  title: Locus Reference Genomic through Ensembl mirror (US west)
+  redirect: http://uswest.ensembl.org/Homo_sapiens/LRG/Summary?lrg=$id
+  test: LRG_1
+  more: http://uswest.ensembl.org/
+
+- namespace: lrg
+  provider: z059
+  title: Locus Reference Genomic through Ensembl mirror (US east)
+  redirect: http://useast.ensembl.org/Homo_sapiens/LRG/Summary?lrg=$id
+  test: LRG_1
+  more: http://useast.ensembl.org/
+
+- namespace: ma
+  title: Mouse Adult Gross Anatomy through BioPortal
+  redirect: http://purl.bioontology.org/ontology/MA/MA:$id
+  test: 0002502
+  more: http://bioportal.bioontology.org/ontologies/MA
+
+- namespace: ma
+  provider: ols
+  title: Mouse Adult Gross Anatomy through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/ma/terms?obo_id=MA:$id
+  test: 0002502
+  more: http://www.ebi.ac.uk/ols/ontologies/ma
+
+- namespace: macie
+  title: MACiE database of mechanisms, annotation and classification in enzymes
+  redirect: http://www.ebi.ac.uk/thornton-srv/databases/cgi-bin/MACiE/entry/getPage.pl?id=$id
+  test: M0001
+  more: http://www.ebi.ac.uk/thornton-srv/databases/MACiE/index.html
+
+- namespace: maizegdb.locus
+  title: MaizeGDB at Missouri
+  redirect: http://www.maizegdb.org/cgi-bin/displaylocusrecord.cgi?id=$id
+  test: 25011
+  more: http://www.maizegdb.org/
+
+- namespace: mamo
+  title: MAMO through BioPortal
+  redirect: http://bioportal.bioontology.org/ontologies/MAMO/?p=classes&conceptid=http://identifiers.org/mamo/$id
+  test: MAMO_0000026
+  more: http://bioportal.bioontology.org/ontologies/MAMO
+
+- namespace: mamo
+  provider: ols
+  title: MaMO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/mamo/terms?short_form=$id
+  test: MAMO_0000026
+  more: http://www.ebi.ac.uk/ols/ontologies/mamo
+
+- namespace: massbank
+  title: MassBank in Japan
+  redirect: http://www.massbank.jp/jsp/FwdRecord.jsp?id=$id
+  test: PB000166
+  more: http://www.massbank.jp
+
+- namespace: massbank
+  provider: z052
+  title: MassBank in Europe
+  redirect: http://www.massbank.eu/MassBank/jsp/FwdRecord.jsp?id=$id
+  test: PB000166
+  more: http://www.massbank.eu/
+
+- namespace: matrixdb.association
+  title: MatrixDB Association
+  redirect: http://matrixdb.univ-lyon1.fr//cgi-bin/current/newPort?type=association&value=$id&class=Association
+  test: P00747__P07355
+  more: http://matrixdb.univ-lyon1.fr/
+
+- namespace: mdm
+  title: MDM at University of Muenster
+  redirect: https://medical-data-models.org/forms/$id
+  test: 4776
+  more: https://medical-data-models.org/
+
+- namespace: meddra
+  title: MedDRA through BioPortal
+  redirect: http://purl.bioontology.org/ontology/MEDDRA/$id
+  test: 10015919
+  more: http://bioportal.bioontology.org/ontologies/MEDDRA
+
+- namespace: medlineplus
+  title: MedlinePlus at NCBI
+  redirect: http://www.nlm.nih.gov/medlineplus/ency/article/$id.htm
+  test: 002804
+  more: http://www.nlm.nih.gov/medlineplus/
+
+- namespace: merops
+  title: MEROPS database at Sanger Institute
+  redirect: http://merops.sanger.ac.uk/cgi-bin/pepsum?mid=$id
+  test: S01.001
+  more: http://merops.sanger.ac.uk/index.htm
+
+- namespace: merops.family
+  title: Merops Family at Sanger Institute
+  redirect: http://merops.sanger.ac.uk/cgi-bin/famsum?family=$id
+  test: S1
+  more: http://merops.sanger.ac.uk/index.htm
+
+- namespace: merops.inhibitor
+  title: MEROPS Inhibitor at Sanger Institute
+  redirect: http://merops.sanger.ac.uk/cgi-bin/pepsum?id=$id
+  test: I31.952
+  more: http://merops.sanger.ac.uk/index.htm
+
+- namespace: mesh
+  title: MeSH Linked Data at National Library of Medicine
+  redirect: http://id.nlm.nih.gov/mesh/$id
+  test: C000100
+  more: http://id.nlm.nih.gov/mesh/
+
+- namespace: mesh.2012
+  title: MeSH at National Library of Medicine
+  redirect: http://www.nlm.nih.gov/cgi/mesh/2012/MB_cgi?mode=&index=$id&view=expanded
+  test: 17186
+  more: http://www.nlm.nih.gov/mesh/
+
+- namespace: mesh.2013
+  title: MeSH 2013 at National Library of Medicine
+  redirect: http://www.nlm.nih.gov/cgi/mesh/2013/MB_cgi?mode=&index=$id&view=expanded
+  test: 17165
+  more: http://www.nlm.nih.gov/mesh/
+
+- namespace: metabolights
+  title: MetaboLights at EBI
+  redirect: http://www.ebi.ac.uk/metabolights/$id
+  test: MTBLS1
+  more: http://www.ebi.ac.uk/metabolights/
+
+- namespace: metanetx.chemical
+  title: MetaNetX chemical at SIB Swiss Institute of Bioinformatics
+  redirect: http://metanetx.org/cgi-bin/mnxweb/chem_info?chem=$id
+  test: MNXM55180
+  more: http://metanetx.org/
+
+- namespace: metanetx.compartment
+  title: MetaNetX compartment at SIB Swiss Institute of Bioinformatics
+  redirect: http://metanetx.org/cgi-bin/mnxweb/comp_info?comp=$id
+  test: MNXC15
+  more: http://metanetx.org/
+
+- namespace: metanetx.reaction
+  title: MetaNetX reaction at SIB Swiss Institute of Bioinformatics
+  redirect: http://metanetx.org/cgi-bin/mnxweb/equa_info?equa=$id
+  test: MNXR3546
+  more: http://metanetx.org/
+
+- namespace: metlin
+  title: METLIN at Scripps Center, Molecular Biology and Center for Mass Spectrometry, La Jolla
+  redirect: http://metlin.scripps.edu/metabo_info.php?molid=$id
+  test: 1455
+  more: http://masspec.scripps.edu/
+
+- namespace: mgd
+  title: Mouse Genome Informatics Database
+  redirect: http://www.informatics.jax.org/accession/MGI:$id
+  test: 2442292
+  more: http://www.informatics.jax.org/
+
+- namespace: microsporidia
+  title: MicrosporidiaDB at EuPathDB
+  redirect: http://microsporidiadb.org/micro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: ECU03_0820i
+  more: http://microsporidiadb.org/micro/
+
+- namespace: mimodb
+  title: BDB at University of Electronic Science and Technology of China
+  redirect: http://immunet.cn/bdb/index.php/mimoset/$id
+  test: 1
+  more: http://immunet.cn/bdb/
+
+- namespace: mint
+  title: The Molecular INTeraction database (MINT)
+  redirect: http://mint.bio.uniroma2.it/mint/search/inFrameInteraction.do?interactionAc=$id
+  test: MINT-10000
+  more: http://mint.bio.uniroma2.it/mint/
+
+- namespace: mint
+  provider: ebi
+  title: MINT subset through IntAct
+  redirect: http://www.ebi.ac.uk/intact/query/interaction_id:$id
+  test: MINT-7905142
+  more: http://www.ebi.ac.uk/intact/
+
+- namespace: mipmod
+  title: MIPModDB at Indian Institute of Technology Kanpur
+  redirect: http://bioinfo.iitk.ac.in/MIPModDB/result.php?code=$id
+  test: HOSAPI0399
+  more: http://bioinfo.iitk.ac.in/MIPModDB
+
+- namespace: mirbase
+  title: miRBase Sequence Database
+  redirect: http://www.mirbase.org/cgi-bin/mirna_entry.pl?acc=$id
+  test: MI0000001
+  more: http://www.mirbase.org/
+
+- namespace: mirbase.mature
+  title: miRBase
+  redirect: http://www.mirbase.org/cgi-bin/mature.pl?mature_acc=$id
+  test: MIMAT0000001
+  more: http://www.mirbase.org/
+
+- namespace: mirex
+  title: mirEX at Adam Mickiewicz University
+  redirect: http://comgen.pl/mirex1/?page=results/record&name=$id&exref=pp2a&limit=yes
+  test: 165a
+  more: http://comgen.pl/mirex/?page=home
+
+- namespace: miriam.collection
+  title: MIRIAM Resources (data collection)
+  redirect: http://www.ebi.ac.uk/miriam/main/MIR:$id
+  test: 00000008
+  more: http://www.ebi.ac.uk/miriam/
+
+- namespace: miriam.resource
+  title: MIRIAM Registry (resources)
+  redirect: http://www.ebi.ac.uk/miriam/main/resources/MIR:$id
+  test: 00100005
+  more: http://www.ebi.ac.uk/miriam/
+
+- namespace: mirnest
+  title: miRNEST at Adam Mickiewicz University
+  redirect: http://rhesus.amu.edu.pl/mirnest/copy/details.php?id=$id
+  test: MNEST029358
+  more: http://rhesus.amu.edu.pl/mirnest/copy/
+
+- namespace: mirtarbase
+  title: miRTarBase at National Chiao Tung University
+  redirect: http://mirtarbase.mbc.nctu.edu.tw/php/detail.php?mirtid=$id
+  test: MIRT000002
+  more: http://mirtarbase.mbc.nctu.edu.tw/
+
+- namespace: mmdb
+  title: MMDB at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/Structure/mmdb/mmdbsrv.cgi?uid=$id
+  test: 50885
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=structure
+
+- namespace: mmmp:biomaps
+  title: main webpage
+  redirect: http://www.mmmp.org/MMMP/public/biomap/viewBiomap.mmmp?id=$id
+  test: 37
+  more: http://www.mmmp.org/MMMP/public/biomap/listBiomap.mmmp
+
+- namespace: mmrrc
+  title: MMRRC  at University of North Carolina
+  redirect: http://www.mmrrc.org/catalog/getSDS.php?mmrrc_id=$id
+  test: 70
+  more: http://www.mmrrc.org/
+
+- namespace: mo
+  title: MGED Ontology at BioPortal
+  redirect: http://purl.bioontology.org/ontology/MO/$id
+  test: ArrayGroup
+  more: http://bioportal.bioontology.org/
+
+- namespace: mo
+  provider: ebi
+  title: MGED Ontology at SourceForge
+  redirect: http://mged.sourceforge.net/ontologies/MGEDontology.php#$id
+  test: ArrayGroup
+  more: http://mged.sourceforge.net/ontologies/MGEDontology.php
+
+- namespace: mod
+  title: Protein modifications ontology via the Ontology Lookup Service (OLS)
+  redirect: http://www.ebi.ac.uk/ols/ontologies/mod/terms?obo_id=MOD:$id
+  test: 00001
+  more: http://www.ebi.ac.uk/ols/ontologies/mod
+
+- namespace: mod
+  provider: bptl
+  title: Protein modifications ontology through BioPortal
+  redirect: http://bioportal.bioontology.org/ontologies/1041?p=terms&conceptid=MOD:$id
+  test: 00001
+  more: http://bioportal.bioontology.org/ontologies/PSIMOD
+
+- namespace: modeldb
+  title: ModelDB at SenseLab
+  redirect: http://senselab.med.yale.edu/ModelDB/ShowModel.asp?model=$id
+  test: 45539
+  more: http://senselab.med.yale.edu/ModelDB/
+
+- namespace: molbase
+  title: Molbase at Chinese Academy of Sciences
+  redirect: http://www.molbase.com/en/index.php?app=search&search_keyword=$id
+  test: 128796-39-4
+  more: http://www.molbase.com/
+
+- namespace: mp
+  title: Mammalian Phenotype Ontology at The Jackson Lab
+  redirect: http://www.informatics.jax.org/searches/Phat.cgi?id=MP:$id
+  test: 0005452
+  more: http://www.informatics.jax.org/
+
+- namespace: mp
+  provider: bptl
+  title: Mammalian Phenotype Ontology through BioPortal
+  redirect: https://bioportal.bioontology.org/ontologies/MP/MP:$id
+  test: 0005452
+  more: https://bioportal.bioontology.org/ontologies/MP
+
+- namespace: mp
+  provider: ols
+  title: Mammalian Phenotype Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/mp/terms?obo_id=MP:$id
+  test: 0005452
+  more: http://www.ebi.ac.uk/ols/ontologies/mp/
+
+- namespace: mpid
+  title: Microbial Protein Interaction Database
+  redirect: http://www.jcvi.org/mpidb/experiment.php?interaction_id=$id
+  test: 172
+  more: http://www.jcvi.org/mpidb/about.php
+
+- namespace: mpid
+  provider: ebi
+  title: Microbial Protein Interaction Database subset through IntAct
+  redirect: http://www.ebi.ac.uk/intact/query/interaction_id:MPIDB-INT-$id
+  test: 1776
+  more: http://www.ebi.ac.uk/intact/
+
+- namespace: myco.lepra
+  title: MycoBrowser leprae at Global Health Institute
+  redirect: http://mycobrowser.epfl.ch/leprosysearch.php?gene+name=$id
+  test: ML0224
+  more: http://mycobrowser.epfl.ch/leprosy.html
+
+- namespace: myco.marinum
+  title: MycoBrowser marinum at Global Health Institute
+  redirect: http://mycobrowser.epfl.ch/marinosearch.php?gene+name=$id
+  test: MMAR_2462
+  more: http://mycobrowser.epfl.ch/marinolist.html
+
+- namespace: myco.smeg
+  title: MycoBrowser smegmatis at Global Health Institute
+  redirect: http://mycobrowser.epfl.ch/smegmasearch.php?gene+name=$id
+  test: MSMEG_3769
+  more: http://mycobrowser.epfl.ch/smegmalist.html
+
+- namespace: myco.tuber
+  title: MycoBrowser tuberculosis at Global Health Institute
+  redirect: http://tuberculist.epfl.ch/quicksearch.php?gene+name=$id
+  test: Rv1908c
+  more: http://tuberculist.epfl.ch/
+
+- namespace: mycobank
+  title: MycoBank at Fungal Biodiversity Centre
+  redirect: http://www.mycobank.org/Biolomics.aspx?Table=Mycobank&MycoBankNr_=$id
+  test: 349124
+  more: http://www.mycobank.org/
+
+- namespace: napp
+  title: NAPP at CNRS
+  redirect: http://rna.igmors.u-psud.fr/NAPP/Niveau2.php?specie=$id
+  test: 351
+  more: http://napp.u-psud.fr/
+
+- namespace: narcis
+  title: NARCIS at The Hague
+  redirect: http://www.narcis.nl/publication/RecordID/$id
+  test: oai:cwi.nl:4725
+  more: http://www.narcis.nl/?Language=en
+
+- namespace: nasc
+  title: NASC at University of Nottingham
+  redirect: http://arabidopsis.info/StockInfo?NASC_id=$id
+  test: N1899
+  more: http://arabidopsis.info/
+
+- namespace: nbn
+  title: NBN through URN Resolver at German National Library
+  redirect: http://nbn-resolving.org/resolver?identifier=$id&verb=full
+  test: urn:nbn:fi:tkk-004781
+  more: http://nbn-resolving.org/resolve_urn.htm
+
+- namespace: nbrc
+  title: NBRC Catalogue at National Institute of Technology Evaluation
+  redirect: http://www.nbrc.nite.go.jp/NBRC2/NBRCCatalogueDetailServlet?ID=NBRC&CAT=$id
+  test: 00001234
+  more: http://www.nbrc.nite.go.jp/e/index.html
+
+- namespace: ncbigene
+  alias: geneid
+  title: Entrez Gene (NCBI)
+  redirect: http://www.ncbi.nlm.nih.gov/gene/$id
+  test: 100010
+  more: http://www.ncbi.nlm.nih.gov/gene
+
+- namespace: ncbigene
+  provider: z035
+  alias: geneid
+  title: Bio2RDF
+  redirect: http://ncbigene.bio2rdf.org/describe/?url=http://bio2rdf.org/ncbigene:$id
+  test: 100010
+  more: http://ncbigene.bio2rdf.org/fct
+
+- namespace: ncbigi
+  title: NCBI GI at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/protein/$id
+  test: GI:9082283
+  more: http://www.ncbi.nlm.nih.gov/protein/
+
+- namespace: ncbiprotein
+  title: NCBI Protein at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/protein/$id
+  test: CAA71118.1
+  more: http://www.ncbi.nlm.nih.gov/protein
+
+- namespace: ncim
+  title: NCIm at National Cancer Institue
+  redirect: http://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=$id
+  test: C0026339
+  more: http://ncim.nci.nih.gov/
+
+- namespace: ncit
+  title: NCIt at National Cancer Institute
+  redirect: http://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI%20Thesaurus&code=$id
+  test: C80519
+  more: http://ncit.nci.nih.gov/
+
+- namespace: ndc
+  title: National Drug Code at Food and Drug Administration
+  redirect: http://www.hipaaspace.com/Medical_Billing/Coding/National.Drug.Codes/$id
+  test: 0002-1975-61
+  more: http://www.accessdata.fda.gov/scripts/cder/ndc/
+
+- namespace: ndc
+  provider: z066
+  title: Bio2RDF
+  redirect: http://ndc.bio2rdf.org/describe/?url=http://bio2rdf.org/ndc:$id
+  test: 0002-1975-61
+  more: http://ndc.bio2rdf.org/fct
+
+- namespace: neurolex
+  title: NeuroLex Neuroscience Lexicon
+  redirect: http://www.neurolex.org/wiki/$id
+  test: Birnlex_721
+  more: http://www.neurolex.org/wiki/Main_Page
+
+- namespace: neurolex
+  provider: bptl
+  title: NeuroLex through NCBO's BioPortal
+  redirect: http://purl.bioontology.org/ontology/BIRNLEX/$id
+  test: birnlex_1672
+  more: http://bioportal.bioontology.org/ontologies/BIRNLEX
+
+- namespace: neuromorpho
+  title: NeuroMorpho
+  redirect: http://neuromorpho.org/neuron_info.jsp?neuron_name=$id
+  test: Rosa2
+  more: http://neuromorpho.org/index.jsp
+
+- namespace: neurondb
+  title: NeuronDB at SenseLab
+  redirect: http://senselab.med.yale.edu/NeuronDB/NeuronProp.aspx?id=$id
+  test: 265
+  more: http://senselab.med.yale.edu/NeuronDB/
+
+- namespace: nextdb
+  title: NEXTDB at Shizuoka
+  redirect: http://nematode.lab.nig.ac.jp/db2/ShowCloneInfo.php?clone=$id
+  test: 6b1
+  more: http://nematode.lab.nig.ac.jp/
+
+- namespace: nextprot
+  title: nextProt at Swiss Institute of Bioinformatics
+  redirect: http://www.nextprot.org/db/entry/$id
+  test: NX_O00165
+  more: http://www.nextprot.org/
+
+- namespace: niaest
+  title: NIAEST at National Institute on Aging
+  redirect: http://lgsun.grc.nia.nih.gov/cgi-bin/pro3?sname1=$id
+  test: J0705A10
+  more: http://lgsun.grc.nia.nih.gov/cDNA/
+
+- namespace: noncodev3
+  title: NONCODE at Chinese Academy of Sciences
+  redirect: http://www.noncode.org/NONCODERv3/ncrna.php?ncid=$id
+  test: 377550
+  more: http://www.noncode.org/
+
+- namespace: noncodev4.gene
+  title: NONCODE v4 Gene at Chinese Academy of Sciences
+  redirect: http://www.bioinfo.org/NONCODEv4/show_gene.php?id=$id
+  test: NONHSAG00001
+  more: http://www.bioinfo.org/NONCODEv4/
+
+- namespace: noncodev4.rna
+  title: NONCODE v4 Transcript at Chinese Academy of Sciences
+  redirect: http://www.bioinfo.org/NONCODEv4/show_rna.php?id=$id
+  test: NONHSAT000001
+  more: http://www.bioinfo.org/NONCODEv4/
+
+- namespace: norine
+  title: NORINE at Computer Science Laboratory of Lille
+  redirect: http://bioinfo.lifl.fr/norine/result.jsp?ID=$id
+  test: NOR00681
+  more: http://bioinfo.lifl.fr/norine/
+
+- namespace: nuclearbd
+  title: NucleaRDB at Radboud University Nijmegen Medical Centre
+  redirect: http://www.receptors.org/nucleardb/proteins/$id
+  test: prgr_human
+  more: http://www.receptors.org/nucleardb/
+
+- namespace: obi
+  title: OBI through Ontobee
+  redirect: http://purl.obolibrary.org/obo/$id
+  test: OBI_0000070
+  more: http://www.ontobee.org/
+
+- namespace: obi
+  provider: bptl
+  title: Ontology for Biomedical Investigations through Bioportal
+  redirect: http://bioportal.bioontology.org/ontologies/OBI?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2F$id
+  test: OBI_0000070
+  more: http://bioportal.bioontology.org/ontologies/OBI
+
+- namespace: obi
+  provider: ols
+  title: OBI through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/obi/terms?short_form=$id
+  test: OBI_0000070
+  more: http://www.ebi.ac.uk/ols/ontologies/obi
+
+- namespace: odor
+  title: Odor Molecules DataBase at Yale University School of Medicine
+  redirect: http://senselab.med.yale.edu/OdorDB/Data/$id/?db=5
+  test: 74
+  more: http://senselab.med.yale.edu/OdorDB
+
+- namespace: oma.grp
+  title: OMA Group through OMA browser at ETH Zurich
+  redirect: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayGroup&p1=$id
+  test: LCSCCPN
+  more: http://omabrowser.org/cgi-bin/gateway.pl
+
+- namespace: oma.protein
+  title: OMA Protein through OMA browser at ETH Zurich
+  redirect: http://omabrowser.org/cgi-bin/gateway.pl?f=DisplayEntry&p1=$id
+  test: HUMAN16963
+  more: http://omabrowser.org/cgi-bin/gateway.pl
+
+- namespace: omia
+  title: OMIA at University of Sydney
+  redirect: http://omia.angis.org.au/$id/
+  test: 1000
+  more: http://omia.angis.org.au/
+
+- namespace: omim
+  title: OMIM at John Hopkins
+  redirect: http://omim.org/entry/$id
+  test: 603903
+  more: http://omim.org/
+
+- namespace: omim
+  provider: z022
+  title: Bio2RDF
+  redirect: http://omim.bio2rdf.org/describe/?url=http://bio2rdf.org/omim:$id
+  test: 603903
+  more: http://omim.bio2rdf.org/fct
+
+- namespace: omim
+  provider: z023
+  title: OMIM mirror at John Hopkins
+  redirect: http://mirror.omim.org/entry/$id
+  test: 603903
+  more: http://mirror.omim.org/
+
+- namespace: opb
+  title: Ontology of Physics for Biology through Bioportal
+  redirect: http://purl.bioontology.org/ontology/OPB?conceptid=http%3A%2F%2Fbhi.washington.edu%2FOPB%23$id
+  test: OPB_00573
+  more: http://bioportal.bioontology.org/ontologies/OPB
+
+- namespace: opm
+  title: OPM at University of Michigan
+  redirect: http://opm.phar.umich.edu/protein.php?pdbid=$id
+  test: 1h68
+  more: http://opm.phar.umich.edu/
+
+- namespace: orcid
+  title: ORCID at Bethesda
+  redirect: https://orcid.org/$id
+  test: 0000-0002-6309-7327
+  more: http://orcid.org
+
+- namespace: ordb
+  title: Olfactory Receptor Database at Yale University School of Medicine
+  redirect: http://senselab.med.yale.edu/ORDB/Data/$id
+  test: 8497
+  more: http://senselab.med.yale.edu/OrDB/
+
+- namespace: oridb.sacch
+  title: OriDB Saccharomyces at University of Nottingham
+  redirect: http://cerevisiae.oridb.org/details.php?id=$id
+  test: 1
+  more: http://cerevisiae.oridb.org/index.php
+
+- namespace: oridb.schizo
+  title: OriDB Schizosaccharomyces at University of Nottingham
+  redirect: http://pombe.oridb.org/details.php?id=$id
+  test: 1
+  more: http://pombe.oridb.org/index.php
+
+- namespace: orphanet
+  title: Orphanet at Inserm
+  redirect: http://www.orpha.net/consor/cgi-bin/OC_Exp.php?Lng=EN&Expert=$id
+  test: 85163
+  more: http://www.orpha.net/consor/
+
+- namespace: orphanet
+  provider: z047
+  title: Bio2RDF
+  redirect: http://orphanet.bio2rdf.org/describe/?url=http://bio2rdf.org/orphanet:$id
+  test: 85163
+  more: http://orphanet.bio2rdf.org/fct
+
+- namespace: orphanet.ordo
+  title: ORDO via OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/ordo/terms?short_form=$id
+  test: Orphanet_C023
+  more: http://www.ebi.ac.uk/ols/ontologies/ordo
+
+- namespace: orthodb
+  title: OrthoDB at Swiss Institute of Bioinformatics
+  redirect: http://cegg.unige.ch/orthodb/results?searchtext=$id
+  test: Q9P0K8
+  more: http://cegg.unige.ch/orthodb4
+
+- namespace: oryzabase.gene
+  title: Oryzabase v4 Gene at National Institute of Genetics (Japan)
+  redirect: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/gene/detail/$id
+  test: 117
+  more: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+
+- namespace: oryzabase.mutant
+  title: Oryzabase v4 Mutant at National Institute of Genetics (Japan)
+  redirect: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/inducedMutationLine/detail/$id
+  test: 21393
+  more: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+
+- namespace: oryzabase.stage
+  title: Oryzabase v4 Stage at National Institute of Genetics (Japan)
+  redirect: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/devstageineachorgan/detail/$id
+  test: 34
+  more: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+
+- namespace: oryzabase.strain
+  title: Oryzabase v4 Strain at National Institute of Genetics (Japan)
+  redirect: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/strain/wildCore/detail/$id
+  test: 1
+  more: http://www.shigen.nig.ac.jp/rice/oryzabaseV4/
+
+- namespace: otl
+  title: Oryza Tag Line at CIRAD-INRA-SUPAGRO-UMI
+  redirect: http://oryzatagline.cirad.fr/cgi-bin/general_mutant.pl?line=$id
+  test: AADB12
+  more: http://oryzatagline.cirad.fr/
+
+- namespace: p3db.protein
+  title: P3DB Protein at University of Missouri
+  redirect: http://www.p3db.org/protein.php?id=$id&amp;ref=0
+  test: 70
+  more: http://www.p3db.org/
+
+- namespace: p3db.site
+  title: P3DB Site at University of Missouri
+  redirect: http://www.p3db.org/phosphosite.php?id=$id&ref=0
+  test: 65
+  more: http://www.p3db.org/
+
+- namespace: paleodb
+  title: PaleoDB at Macquarie University
+  redirect: http://fossilworks.org/?a=taxonInfo&taxon_no=$id
+  test: 83088
+  more: http://paleodb.org/
+
+- namespace: panther.family
+  title: PANTHER Family at USC (Los Angeles)
+  redirect: http://www.pantherdb.org/panther/family.do?clsAccession=$id
+  test: PTHR12345
+  more: http://www.pantherdb.org/
+
+- namespace: panther.node
+  title: PANTHER Node at USC (Los Angeles)
+  redirect: http://www.pantree.org/node/annotationNode.jsp?id=$id
+  test: PTN000000026
+  more: http://pantree.org/
+
+- namespace: panther.pathway
+  title: PANTHER Pathway at USC (Los Angeles)
+  redirect: http://www.pantherdb.org/pathway/pathwayDiagram.jsp?catAccession=$id
+  test: P00024
+  more: http://www.pantherdb.org/
+
+- namespace: panther.pthcmp
+  title: PANTHER Pathway Component at USC (Los Angeles)
+  redirect: http://www.pantherdb.org/pathway/pathCatDetail.do?clsAccession=$id
+  test: P00266
+  more: http://www.pantherdb.org/
+
+- namespace: pass2
+  title: PASS2 at National centre for Biological Sciences (India)
+  redirect: http://caps.ncbs.res.in/cgi-bin/pass2//show_sf.py?sf_id=$id
+  test: 46977
+  more: http://caps.ncbs.res.in/pass2/
+
+- namespace: pathwaycommons
+  title: Pathway Commons
+  redirect: http://www.pathwaycommons.org/pc/record2.do?id=$id
+  test: 485991
+  more: http://www.pathwaycommons.org/pc/
+
+- namespace: pato
+  title: PATO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/pato/terms?obo_id=PATO:$id
+  test: 0001998
+  more: http://www.ebi.ac.uk/ols/ontologies/pato
+
+- namespace: pato
+  provider: bptl
+  title: PATO through BioPortal
+  redirect: http://purl.bioontology.org/ontology/PATO/PATO:$id
+  test: 0001998
+  more: http://bioportal.bioontology.org/ontologies/PATO
+
+- namespace: paxdb.organism
+  title: PaxDb v3 at University of Zurich
+  redirect: http://pax-db.org/#!species/$id
+  test: 9606
+  more: http://pax-db.org/
+
+- namespace: paxdb.protein
+  title: PaxDb v3 at University of Zurich
+  redirect: http://pax-db.org/#!protein/$id
+  test: 977869
+  more: http://pax-db.org/
+
+- namespace: pazar
+  title: Pazar Transcription Factor at University of British Columbia
+  redirect: http://www.pazar.info/cgi-bin/tf_search.cgi?geneID=$id
+  test: TF0001053
+  more: http://www.pazar.info/
+
+- namespace: pdb
+  title: RCSB PDB
+  redirect: http://www.rcsb.org/pdb/explore/explore.do?structureId=$id
+  test: 2gc4
+  more: http://www.pdb.org/
+
+- namespace: pdb
+  provider: ebi
+  title: Protein Databank through PDBsum
+  redirect: http://www.ebi.ac.uk/pdbsum/$id
+  test: 2gc4
+  more: http://www.ebi.ac.uk/pdbsum/
+
+- namespace: pdb
+  provider: pdbe
+  title: Protein Databank in Europe (PDBe)
+  redirect: http://www.pdbe.org/$id
+  test: 2gc4
+  more: http://www.pdbe.org/
+
+- namespace: pdb
+  provider: pdbj
+  title: Protein Data Bank Japan (PDBj)
+  redirect: http://pdbj.org/mine/summary/$id
+  test: 2gc4
+  more: http://www.pdbj.org/
+
+- namespace: pdb
+  provider: z026
+  title: Proteopedia
+  redirect: http://proteopedia.org/wiki/index.php/$id
+  test: 2gc4
+  more: http://www.proteopedia.org/
+
+- namespace: pdb-ccd
+  title: Protein Data Bank Chemical Component Dictionary at EBI
+  redirect: http://www.ebi.ac.uk/pdbe-srv/pdbechem/chemicalCompound/show/$id
+  test: AB0
+  more: http://www.ebi.ac.uk/pdbe-srv/pdbechem/
+
+- namespace: pdb.ligand
+  title: PDB Ligand at RCSB
+  redirect: http://www.rcsb.org/pdb/ligand/ligandsummary.do?hetId=$id
+  test: TRQ
+  more: http://www.pdb.org/
+
+- namespace: peptideatlas
+  title: PeptideAtlas at ISB
+  redirect: https://db.systemsbiology.net/sbeams/cgi/PeptideAtlas/Summarize_Peptide?query=QUERY&searchForThis=$id
+  test: PAp00000009
+  more: http://www.peptideatlas.org/
+
+- namespace: peroxibase
+  title: Peroxibase at University of Geneva
+  redirect: http://peroxibase.toulouse.inra.fr/browse/process/view_perox.php?id=$id
+  test: 5282
+  more: http://peroxibase.toulouse.inra.fr/
+
+- namespace: pfam
+  title: Pfam at EMBL-EBI
+  redirect: http://pfam.xfam.org/family/$id
+  test: PF01234
+  more: http://pfam.xfam.org/
+
+- namespace: pharmgkb.disease
+  title: PharmGKB Disease at Stanford
+  redirect: http://www.pharmgkb.org/disease/$id
+  test: PA447218
+  more: http://www.pharmgkb.org/
+
+- namespace: pharmgkb.drug
+  title: PharmGKB Drug at Stanford
+  redirect: http://www.pharmgkb.org/drug/$id
+  test: PA448710
+  more: http://www.pharmgkb.org/
+
+- namespace: pharmgkb.gene
+  title: PharmGKB Gene at Stanford
+  redirect: http://www.pharmgkb.org/gene/$id
+  test: PA131
+  more: http://www.pharmgkb.org/
+
+- namespace: pharmgkb.pathways
+  title: PharmGKB at Stanford
+  redirect: http://www.pharmgkb.org/pathway/$id
+  test: PA146123006
+  more: http://www.pharmgkb.org/
+
+- namespace: phenolexplorer
+  title: Phenol-Explorer Database on Phenol content of foods
+  redirect: http://phenol-explorer.eu/foods/$id
+  test: 75
+  more: http://www.phenol-explorer.eu/foods/
+
+- namespace: phosphopoint.kinase
+  title: PhosphoPoint Kinase at National Taiwan University
+  redirect: http://kinase.bioinformatics.tw/showall.jsp?type=Kinase&info=Gene&name=$id&drawing=0&sorting=0&kinome=1
+  test: AURKA
+  more: http://kinase.bioinformatics.tw/
+
+- namespace: phosphopoint.protein
+  title: PhosphoPoint Phosphoprotein at National Taiwan University
+  redirect: http://kinase.bioinformatics.tw/showall.jsp?type=PhosphoProtein&info=Gene&name=$id&drawing=0&sorting=0&kinome=0
+  test: AURKA
+  more: http://kinase.bioinformatics.tw/
+
+- namespace: phosphosite.protein
+  title: PhosphoSite
+  redirect: http://www.phosphosite.org/proteinAction.do?id=$id
+  test: 12300
+  more: http://www.phosphosite.org/homeAction.do
+
+- namespace: phosphosite.residue
+  title: PhosphoSite Residue
+  redirect: http://www.phosphosite.org/siteAction.do?id=$id
+  test: 2842
+  more: http://www.phosphosite.org/homeAction.do
+
+- namespace: phylomedb
+  title: PhylomeDB at Centro de Investigaci√≥n Pr√≠ncipe Felipe
+  redirect: http://phylomedb.org/?seqid=$id
+  test: Phy000CLXM_RAT
+  more: http://phylomedb.org/
+
+- namespace: phytozome.locus
+  title: Phytozome Locus at Joint Genome Institute
+  redirect: http://www.phytozome.net/genePage.php?crown&method=0&search=1&detail=1&searchText=locusname:$id
+  test: Glyma0021s00410
+  more: http://www.phytozome.net/
+
+- namespace: pid.pathway
+  title: NCI Pathway Interaction Database (Pathway)
+  redirect: http://pid.nci.nih.gov/search/pathway_landing.shtml?what=graphic&jpg=on&pathway_id=$id
+  test: pi3kcipathway
+  more: http://pid.nci.nih.gov/
+
+- namespace: pigqtldb
+  title: Animal QTL Pig at Iowa State University
+  redirect: http://www.animalgenome.org/cgi-bin/QTLdb/SS/qdetails?QTL_ID=$id
+  test: 14
+  more: http://www.animalgenome.org/cgi-bin/QTLdb/SS/index
+
+- namespace: pina
+  title: Protein Interaction Network Analysis (PINA) at Garvan Institute
+  redirect: http://cbg.garvan.unsw.edu.au/pina/interactome.oneP.do?ac=$id&showExtend=null
+  test: Q13485
+  more: http://cbg.garvan.unsw.edu.au/pina/
+
+- namespace: piroplasma
+  title: PiroplasmaBD at EuPathDB
+  redirect: http://piroplasmadb.org/piro/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: TA14985
+  more: http://piroplasmadb.org/
+
+- namespace: pirsf
+  title: PIRSF
+  redirect: http://pir.georgetown.edu/cgi-bin/ipcSF?id=$id
+  test: PIRSF000100
+  more: http://pir.georgetown.edu/pirsf/
+
+- namespace: planttfdb
+  title: PlantTFDB at Peking University
+  redirect: http://planttfdb.cbi.pku.edu.cn/tf.php?uid=$id
+  test: Ath_AT1G01030.1
+  more: http://planttfdb.cbi.pku.edu.cn
+
+- namespace: plasmodb
+  title: PlasmoDB at EuPathDB
+  redirect: http://plasmodb.org/plasmo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: PF11_0344
+  more: http://plasmodb.org/plasmo/
+
+- namespace: pmap.cutdb
+  title: CutDB at The Burnham Institute for Medical Research
+  redirect: http://cutdb.burnham.org/relation/show/$id
+  test: 25782
+  more: http://cutdb.burnham.org
+
+- namespace: pmap.substratedb
+  title: SubstrateDB at The Burnham Institute for Medical Research
+  redirect: http://substrate.burnham.org/protein/annotation/$id/html
+  test: 1915
+  more: http://substrate.burnham.org/
+
+- namespace: pmc
+  title: PubMed Central
+  redirect: http://www.ncbi.nlm.nih.gov/pmc/articles/$id/?tool=pubmed
+  test: PMC3084216
+  more: http://www.ncbi.nlm.nih.gov/pmc/
+
+- namespace: pmc
+  provider: cpmc
+  title: PubMedCentral Canada
+  redirect: http://pubmedcentralcanada.ca/pmcc/articles/$id
+  test: PMC3084216
+  more: http://pubmedcentralcanada.ca/pmcc
+
+- namespace: pmc
+  provider: epmc
+  title: Europe PMC
+  redirect: http://europepmc.org/articles/$id
+  test: PMC3084216
+  more: http://europepmc.org/
+
+- namespace: pmdb
+  title: Protein Model Database at University of Rome
+  redirect: https://bioinformatics.cineca.it/PMDB/user//search.php?idsearch=$id
+  test: PM0012345
+  more: https://bioinformatics.cineca.it/PMDB/
+
+- namespace: pmp
+  title: PMP at University of Basel
+  redirect: http://www.proteinmodelportal.org/query/uniprot/$id
+  test: Q0VCA6
+  more: http://www.proteinmodelportal.org/
+
+- namespace: po
+  title: Plant Ontology through Amigo
+  redirect: http://www.plantontology.org/amigo/go.cgi?view=details&query=PO:$id
+  test: 0009089
+  more: http://www.plantontology.org/
+
+- namespace: po
+  provider: bptl
+  title: Plant Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/PO/PO:$id
+  test: 0009089
+  more: http://bioportal.bioontology.org/ontologies/PO
+
+- namespace: po
+  provider: ols
+  title: Plant Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/po/terms?obo_id=PO:$id
+  test: 0009089
+  more: http://www.ebi.ac.uk/ols/ontologies/po
+
+- namespace: pocketome
+  title: Pocketome at UCSD Skaggs School
+  redirect: http://www.pocketome.org/files/$id.html
+  test: 1433C_TOBAC_1_252
+  more: http://www.pocketome.org/sfSearch.cgi?act=browseall
+
+- namespace: polbase
+  title: PolBase at New England BioLabs
+  redirect: https://polbase.neb.com/polymerases/$id#sequences
+  test: 19-T4
+  more: http://polbase.neb.com/
+
+- namespace: pombase
+  title: PomBase at University of Cambridge
+  redirect: http://www.pombase.org/spombe/result/$id
+  test: SPCC13B11.01
+  more: http://www.pombase.org/
+
+- namespace: pr
+  title: Protein Ontology at Georgetown
+  redirect: http://pir.georgetown.edu/cgi-bin/pro/entry_pro?id=PR:$id
+  test: 000000024
+  more: http://pir.georgetown.edu/pro/pro.shtml
+
+- namespace: pr
+  provider: bptl
+  title: Protein Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/PR/PR:$id
+  test: 000000024
+  more: http://bioportal.bioontology.org/ontologies/PR
+
+- namespace: pr
+  provider: ols
+  title: Protein Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/pr/terms?obo_id=PR:$id
+  test: 000000024
+  more: http://www.ebi.ac.uk/ols/ontologies/pr
+
+- namespace: pride
+  title: PRIDE at EBI
+  redirect: http://www.ebi.ac.uk/pride/archive/assays/$id
+  test: 1
+  more: http://www.ebi.ac.uk/pride/
+
+- namespace: pride.project
+  title: PRIDE Project at EBI
+  redirect: http://www.ebi.ac.uk/pride/archive/projects/$id
+  test: PXD000440
+  more: http://www.ebi.ac.uk/pride/
+
+- namespace: probonto
+  title: ProbOnto through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/probonto/terms?short_form=$id
+  test: PROB_c0000005
+  more: http://www.ebi.ac.uk/ols/ontologies/probonto
+
+- namespace: prodom
+  title: ProDom Protein Domain Database
+  redirect: http://prodom.prabi.fr/prodom/current/cgi-bin/request.pl?question=DBEN&query=$id
+  test: PD10000
+  more: http://prodom.prabi.fr/prodom/current/html/home.php
+
+- namespace: proglyc
+  title: ProGlycProt at IMT
+  redirect: http://www.proglycprot.org/detail.aspx?ProId=$id
+  test: AC119
+  more: http://www.proglycprot.org/
+
+- namespace: prosite
+  title: ExPASy PROSITE
+  redirect: http://prosite.expasy.org/$id
+  test: PS00001
+  more: http://www.expasy.org/prosite/
+
+- namespace: protclustdb
+  title: ProtClustDB at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/sites/entrez?Db=proteinclusters&Cmd=DetailsSearch&Term=$id
+  test: O80725
+  more: http://www.ncbi.nlm.nih.gov/proteinclusters?db=proteinclusters
+
+- namespace: proteomexchange
+  title: ProteomeXchange at Seattle
+  redirect: http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=$id
+  test: PXD000500
+  more: http://www.proteomexchange.org/
+
+- namespace: proteomicsdb.peptide
+  title: Proteomics DB Peptide at Center for Integrated Protein Science
+  redirect: https://www.proteomicsdb.org/#human/proteinDetails/$id/peptides/
+  test: 53504
+  more: https://www.proteomicsdb.org/#peptideSearch
+
+- namespace: proteomicsdb.protein
+  title: Proteomics DB Protein at Center for Integrated Protein Science
+  redirect: https://www.proteomicsdb.org/#human/proteinDetails/$id/summary
+  test: 53504
+  more: https://www.proteomicsdb.org/#human
+
+- namespace: protonet.cluster
+  title: ProtoNet at Hebrew University
+  redirect: http://www.protonet.cs.huji.ac.il/requested/cluster_card.php?cluster=$id
+  test: 4349895
+  more: http://www.protonet.cs.huji.ac.il/
+
+- namespace: protonet.proteincard
+  title: ProtoNet at Hebrew University
+  redirect: http://www.protonet.cs.huji.ac.il/requested/protein_card.php?protein_id=$id
+  test: 16941567
+  more: http://www.protonet.cs.huji.ac.il/
+
+- namespace: pscdb
+  title: PSCDB at Nagoya University
+  redirect: http://idp1.force.cs.is.nagoya-u.ac.jp/pscdb/$id.html
+  test: 051
+  more: http://idp1.force.cs.is.nagoya-u.ac.jp/pscdb/index.html
+
+- namespace: pseudomonas
+  title: Pseudomonas Genome Database at Simon Fraser University
+  redirect: http://v2.pseudomonas.com/getAnnotation.do?locusID=$id
+  test: PSEEN0001
+  more: http://www.pseudomonas.com/
+
+- namespace: psimi
+  title: Molecular Interactions Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/mi/terms?obo_id=MI:$id
+  test: 0308
+  more: http://www.ebi.ac.uk/ols/ontologies/mi
+
+- namespace: psipar
+  title: Protein Affinity Reagents through OLS
+  redirect: http://www.ebi.ac.uk/ontology-lookup/?termId=$id
+  test: PAR:0116
+  more: http://www.ebi.ac.uk/ontology-lookup/browse.do?ontName=PAR
+
+- namespace: pubchem.bioassay
+  title: PubChem Bioassay at NCBI
+  redirect: http://pubchem.ncbi.nlm.nih.gov/assay/assay.cgi?aid=$id
+  test: 1018
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=pcassay
+
+- namespace: pubchem.compound
+  title: NCBI PubChem Compound
+  redirect: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?cid=$id
+  test: 100101
+  more: http://pubchem.ncbi.nlm.nih.gov/
+
+- namespace: pubchem.substance
+  title: NCBI PubChem Substance
+  redirect: http://pubchem.ncbi.nlm.nih.gov/summary/summary.cgi?sid=$id
+  test: 100101
+  more: http://pubchem.ncbi.nlm.nih.gov/
+
+- namespace: pubmed
+  alias: pmid
+  title: NCBI PubMed
+  redirect: http://www.ncbi.nlm.nih.gov/pubmed/$id
+  test: 16333295
+  more: http://www.ncbi.nlm.nih.gov/PubMed/
+
+- namespace: pubmed
+  provider: epmc
+  alias: pmid
+  title: Europe PMC
+  redirect: http://europepmc.org/abstract/MED/$id
+  test: 16333295
+  more: http://europepmc.org/
+
+- namespace: pubmed
+  provider: hubmed
+  alias: pmid
+  title: HubMed
+  redirect: http://www.hubmed.org/display.cgi?uids=$id
+  test: 16333295
+  more: http://www.hubmed.org/
+
+- namespace: pubmed
+  provider: z020
+  alias: pmid
+  title: Bio2RDF
+  redirect: http://pubmed.bio2rdf.org/describe/?url=http://bio2rdf.org/pubmed:$id
+  test: 23735196
+  more: http://pubmed.bio2rdf.org/fct
+
+- namespace: pubmed
+  provider: z021
+  alias: pmid
+  title: PubMed through Linkedlife data
+  redirect: http://linkedlifedata.com/resource/pubmed/id/$id
+  test: 23735196
+  more: http://linkedlifedata.com/
+
+- namespace: purl
+  title: Persistent URL
+  redirect: http://purl.org/$id
+  test: dc/terms/creator
+  more: http://purl.org/
+
+- namespace: pw
+  title: Pathway Ontology at Rat Genome Database
+  redirect: http://rgd.mcw.edu/rgdweb/ontology/annot.html?acc_id=PW:$id
+  test: 0000208
+  more: http://rgd.mcw.edu/rgdweb/ontology/search.html
+
+- namespace: pw
+  provider: bptl
+  title: Pathway Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/PW/PW:$id
+  test: 0000208
+  more: http://bioportal.bioontology.org/ontologies/PW
+
+- namespace: pw
+  provider: ols
+  title: Pathway Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/pw/terms?obo_id=PW:$id
+  test: 0000208
+  more: http://www.ebi.ac.uk/ols/ontologies/pw
+
+- namespace: reactome
+  title: Reactome, a curated knowledgebase of biological pathways
+  redirect: http://www.reactome.org/PathwayBrowser/#$id
+  test: R-HSA-201451
+  more: http://www.reactome.org/
+
+- namespace: rebase
+  title: REBASE at New England Biolabs
+  redirect: http://rebase.neb.com/rebase/enz/$id.html
+  test: 101
+  more: http://rebase.neb.com/rebase/
+
+- namespace: refseq
+  title: The NCBI Reference Sequence database
+  redirect: http://www.ncbi.nlm.nih.gov/entrez/viewer.fcgi?val=$id
+  test: NP_012345
+  more: http://www.ncbi.nlm.nih.gov/projects/RefSeq/
+
+- namespace: resid
+  title: RESID at Georgetown University
+  redirect: http://pir0.georgetown.edu/cgi-bin/resid?id=$id
+  test: AA0001
+  more: http://pir0.georgetown.edu/resid/
+
+- namespace: rfam
+  title: Rfam at EMBL-EBI
+  redirect: http://rfam.xfam.org/family/$id
+  test: RF00230
+  more: http://rfam.xfam.org/
+
+- namespace: rgd
+  title: Rat Genome Database
+  redirect: http://rgd.mcw.edu/rgdweb/report/gene/main.html?id=$id
+  test: 2018
+  more: http://rgd.mcw.edu/
+
+- namespace: rgd.qtl
+  title: Rat Genome Database qTL at Medical College of Wisconsin
+  redirect: http://rgd.mcw.edu/rgdweb/report/qtl/main.html?id=$id
+  test: 1354581
+  more: http://rgd.mcw.edu/
+
+- namespace: rgd.strain
+  title: Rat Genome Database strain at Medical College of Wisconsin
+  redirect: http://rgd.mcw.edu/rgdweb/report/strain/main.html?id=$id
+  test: 5688061
+  more: http://rgd.mcw.edu/
+
+- namespace: rhea
+  title: Rhea
+  redirect: http://www.rhea-db.org/reaction?id=$id
+  test: 12345
+  more: http://www.rhea-db.org/
+
+- namespace: ricegap
+  title: Rice Genome Annotation Project at TIGR
+  redirect: http://rice.plantbiology.msu.edu/cgi-bin/ORF_infopage.cgi?&orf=$id
+  test: LOC_Os02g13300
+  more: http://rice.plantbiology.msu.edu/annotation_pseudo_current.shtml
+
+- namespace: rnamods
+  title: RNA Modification Database at University of Utah
+  redirect: http://mods.rna.albany.edu/mods/modifications/view/$id
+  test: 101
+  more: http://rna-mdb.cas.albany.edu/RNAmods/rnaover.htm
+
+- namespace: ro
+  title: OBO Relation Ontology through OntoBee
+  redirect: http://purl.obolibrary.org/obo/$id
+  test: RO_0002533
+  more: http://obofoundry.org/ontology/ro.html
+
+- namespace: ro
+  provider: ols
+  title: OBO Relation Ontology through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/ro/terms?short_form=$id
+  test: RO_0002533
+  more: http://www.ebi.ac.uk/ols/ontologies/ro
+
+- namespace: rouge
+  title: Rouge at Kazusa DNA Research Institute
+  redirect: http://www.kazusa.or.jp/rouge/gfpage/$id/
+  test: mKIAA4200
+  more: http://www.kazusa.or.jp/rouge/
+
+- namespace: rrid
+  title: RRID at SciCrunch
+  redirect: https://scicrunch.org/resolver/RRID:$id
+  test: AB_262044
+  more: https://scicrunch.org/resolver
+
+- namespace: sabiork.ec
+  title: SABIO-RK Reaction Kinetics Database - Enzyme Classification (EC)
+  redirect: http://sabiork.h-its.org/newSearch?q=ecnumber:$id
+  test: 2.7.1.1
+  more: http://sabiork.h-its.org/
+
+- namespace: sabiork.kineticrecord
+  title: SABIO-RK Reaction Kinetics Database - Kinetic Dataset
+  redirect: http://sabiork.h-its.org/kineticLawEntry.jsp?viewData=true&kinlawid=$id
+  test: 5046
+  more: http://sabiork.h-its.org/
+
+- namespace: sabiork.reaction
+  title: SABIO-RK reaction
+  redirect: http://sabiork.h-its.org/newSearch?q=sabioreactionid:$id
+  test: 75
+  more: http://sabiork.h-its.org/
+
+- namespace: sasbdb
+  title: SASBDB at European Molecular Biology Laboratory
+  redirect: http://www.sasbdb.org/data/$id
+  test: SASDAX8
+  more: http://www.sasbdb.org/
+
+- namespace: sbo
+  title: SBO
+  redirect: http://www.ebi.ac.uk/sbo/main/SBO:$id
+  test: 0000262
+  more: http://www.ebi.ac.uk/sbo/
+
+- namespace: sbo
+  provider: bptl
+  title: SBO through BioPortal
+  redirect: http://purl.bioontology.org/ontology/SBO/SBO:$id
+  test: 0000262
+  more: http://bioportal.bioontology.org/ontologies/SBO
+
+- namespace: sbo
+  provider: ols
+  title: SBO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/sbo/terms?obo_id=SBO:$id
+  test: 0000262
+  more: http://www.ebi.ac.uk/ols/ontologies/sbo
+
+- namespace: scop
+  title: SCOP at MRC
+  redirect: http://scop.mrc-lmb.cam.ac.uk/scop/search.cgi?sunid=$id
+  test: 47419
+  more: http://scop.mrc-lmb.cam.ac.uk/scop/
+
+- namespace: scop
+  provider: z055
+  title: SCOP at Berkeley
+  redirect: http://scop.berkeley.edu/sunid=$id
+  test: 47419
+  more: http://scop.berkeley.edu/
+
+- namespace: scretf
+  title: ScerTF at Washington University
+  redirect: http://stormo.wustl.edu/ScerTF/details/$id/
+  test: RSC3
+  more: http://stormo.wustl.edu/ScerTF/
+
+- namespace: sdbs
+  title: SDBS at AIST
+  redirect: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/cre_frame_disp.cgi?sdbsno=$id
+  test: 4544
+  more: http://riodb01.ibase.aist.go.jp/sdbs/cgi-bin/direct_frame_top.cgi
+
+- namespace: seed
+  title: SEED Subsystem at Argonne National Laboratory
+  redirect: http://seed-viewer.theseed.org/seedviewer.cgi?page=Subsystems&subsystem=$id
+  test: Biotin_biosynthesis
+  more: http://seed-viewer.theseed.org/seedviewer.cgi
+
+- namespace: seed.compound
+  title: SEED Compound at Argonne National Laboratory
+  redirect: http://seed-viewer.theseed.org/seedviewer.cgi?page=CompoundViewer&compound=$id
+  test: cpd15380
+  more: http://seed-viewer.theseed.org/seedviewer.cgi?page=Home
+
+- namespace: sgd
+  title: SGD
+  redirect: http://www.yeastgenome.org/cgi-bin/locus.fpl?dbid=$id
+  test: S000028457
+  more: http://www.yeastgenome.org/
+
+- namespace: sgd
+  provider: z029
+  title: Bio2RDF
+  redirect: http://sgd.bio2rdf.org/describe/?url=http://bio2rdf.org/sgd:$id
+  test: S000006169
+  more: http://sgd.bio2rdf.org/fct
+
+- namespace: sgd.pathways
+  title: Saccharomyces cerevisiae pathways at SGD.
+  redirect: http://pathway.yeastgenome.org/YEAST/new-image?type=PATHWAY&object=$id
+  test: PWY3O-214
+  more: http://pathway.yeastgenome.org/
+
+- namespace: sgn
+  title: Sol Genomics Network at Boyce Thompson Institute for Plant Research
+  redirect: http://solgenomics.net/phenome/locus_display.pl?locus_id=$id
+  test: 0001
+  more: http://solgenomics.net/
+
+- namespace: sheepqtldb
+  title: Animal QTL Sheep at Iowa State University
+  redirect: http://www.animalgenome.org/cgi-bin/QTLdb/OA/qdetails?QTL_ID=$id
+  test: 19803
+  more: http://www.animalgenome.org/cgi-bin/QTLdb/OA/index
+
+- namespace: sider.drug
+  title: SIDER Drug v2 at EMBL (Heidelberg)
+  redirect: http://sideeffects.embl.de/drugs/$id/
+  test: 2244
+  more: http://sideeffects.embl.de/
+
+- namespace: sider.effect
+  title: SIDER Side Effect v2 at EMBL (Heidelberg)
+  redirect: http://sideeffects.embl.de/se/$id/
+  test: C0017565
+  more: http://sideeffects.embl.de/
+
+- namespace: signaling-gateway
+  title: Signaling Gateway Molecule Pages
+  redirect: http://www.signaling-gateway.org/molecule/query?afcsid=$id
+  test: A001094
+  more: http://www.signaling-gateway.org/molecule
+
+- namespace: sitex
+  title: SitEx at Novosibirsk State University
+  redirect: http://www-bionet.sscc.ru/sitex/index.php?siteid=$id
+  test: 1000
+  more: http://www-bionet.sscc.ru/sitex/
+
+- namespace: smart
+  title: SMART (Simple Modular Architecture Research Tool)
+  redirect: http://smart.embl-heidelberg.de/smart/do_annotation.pl?DOMAIN=$id
+  test: SM00015
+  more: http://smart.embl-heidelberg.de/
+
+- namespace: smpdb
+  title: Small Molecule Pathway Database
+  redirect: http://smpdb.ca/view/$id
+  test: SMP00001
+  more: http://www.smpdb.ca/pathways
+
+- namespace: snomedct
+  title: SNOMED-CT at The National Pathology Exchange
+  redirect: http://www.snomedbrowser.com/Codes/Details/$id
+  test: 284196006
+  more: http://www.snomedbrowser.com/
+
+- namespace: so
+  title: Sequence Ontology
+  redirect: http://www.sequenceontology.org/miso/current_release/term/SO:$id
+  test: 0000704
+  more: http://www.sequenceontology.org/
+
+- namespace: so
+  provider: bptl
+  title: Sequence Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/SO/SO:$id
+  test: 0000704
+  more: http://bioportal.bioontology.org/ontologies/SO
+
+- namespace: so
+  provider: ols
+  title: Sequence Ontology through Ontology Lookup Service (OLS)
+  redirect: http://www.ebi.ac.uk/ols/ontologies/so/terms?obo_id=SO:$id
+  test: 0000704
+  more: http://www.ebi.ac.uk/ols/ontologies/so
+
+- namespace: soybase
+  title: SoyBase at Iowa State University
+  redirect: http://www.soybase.org/sbt/search/search_results.php?category=SNP&search_term=$id
+  test: BARC-013845-01256
+  more: http://soybase.org/
+
+- namespace: spike.map
+  title: SPIKE database at Tel Aviv University
+  redirect: http://www.cs.tau.ac.il/~spike/maps/$id.html
+  test: spike00001
+  more: http://www.cs.tau.ac.il/~spike/
+
+- namespace: splash
+  title: Mass Bank of North America (MoNA)
+  redirect: http://mona.fiehnlab.ucdavis.edu/#/spectra/splash/$id
+  test: splash10-0zq2000000-77302b0326a418630a84
+  more: http://mona.fiehnlab.ucdavis.edu/
+
+- namespace: sprint
+  title: PRINTS through SPRINT
+  redirect: http://www.bioinf.manchester.ac.uk/cgi-bin/dbbrowser/sprint/searchprintss.cgi?prints_accn=$id&display_opts=Prints&category=None&queryform=false&regexpr=off
+  test: PR00001
+  more: http://www.bioinf.manchester.ac.uk/dbbrowser/sprint/
+
+- namespace: stap
+  title: STAP at Korean Bioinformation Center
+  redirect: http://psb.kobic.re.kr/STAP/refinement1/result.php?search=$id
+  test: 1a24
+  more: http://psb.kobic.re.kr/STAP/refinement/
+
+- namespace: stitch
+  title: STITCH
+  redirect: http://stitch.embl.de/interactions/$id
+  test: BQJCRHHNABKAKU
+  more: http://stitch.embl.de/
+
+- namespace: storedb
+  title: STOREDB at University of Cambridge
+  redirect: https://www.storedb.org/?$id
+  test: STOREDB:STUDY1040
+  more: https://www.storedb.org/
+
+- namespace: string
+  title: STRING at Heidelberg
+  redirect: http://string.embl.de/interactions/$id
+  test: P53350
+  more: http://string.embl.de/
+
+- namespace: string
+  provider: z051
+  title: STRING Mirror at Heidelberg
+  redirect: http://string-db.org/interactions/$id
+  test: P53350
+  more: http://string-db.org/
+
+- namespace: subtilist
+  title: SubtiList at Pasteur Institute
+  redirect: http://genolist.pasteur.fr/SubtiList/genome.cgi?external_query+$id
+  test: BG11523
+  more: http://genolist.pasteur.fr/SubtiList/
+
+- namespace: subtiwiki
+  title: SubtiWiki website
+  redirect: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/$id
+  test: BSU29180
+  more: http://www.subtiwiki.uni-goettingen.de/wiki/index.php/Main_Page
+
+- namespace: supfam
+  title: SUPFAM at MRC and University of Bristol
+  redirect: http://supfam.org/SUPERFAMILY/cgi-bin/scop.cgi?ipid=$id
+  test: SSF57615
+  more: http://supfam.org/SUPERFAMILY/
+
+- namespace: swiss-model
+  title: SWISS-MODEL at SIB Swiss Institute of Bioinformatics
+  redirect: http://swissmodel.expasy.org/repository/smr.php?sptr_ac=$id
+  test: P23298
+  more: http://swissmodel.expasy.org/
+
+- namespace: swisslipid
+  title: SwissLipids at Swiss Institute of Bioinformatics
+  redirect: http://www.swisslipids.org/#/entity/SLM:$id/
+  test: 000048885
+  more: http://www.swisslipids.org/#/
+
+- namespace: t3db
+  title: Toxin and Toxin Target Database
+  redirect: http://www.t3db.org/toxins/$id
+  test: T3D0001
+  more: http://www.t3db.org/
+
+- namespace: tair.gene
+  title: The Arabidopsis Information Resource (TAIR) Gene
+  redirect: http://arabidopsis.org/servlets/TairObject?accession=$id
+  test: Gene:2200934
+  more: http://arabidopsis.org/index.jsp
+
+- namespace: tair.locus
+  title: The Arabidopsis Information Resource (TAIR) Locus
+  redirect: http://arabidopsis.org/servlets/TairObject?type=locus&name=$id
+  test: AT1G01030
+  more: http://arabidopsis.org/index.jsp
+
+- namespace: tair.protein
+  title: The Arabidopsis Information Resource (TAIR) Protein
+  redirect: http://arabidopsis.org/servlets/TairObject?accession=$id
+  test: AASequence:1009107926
+  more: http://arabidopsis.org/index.jsp
+
+- namespace: tarbase
+  title: TarBase v7 at University of Thessaly
+  redirect: http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=tarbase/index&mirnas=$id
+  test: hsa-let-7a-2-3p
+  more: http://diana.imis.athena-innovation.gr/DianaTools/index.php?r=tarbase/index
+
+- namespace: taxonomy
+  alias: taxon
+  title: NCBI Taxonomy
+  redirect: http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=$id
+  test: 9606
+  more: http://www.ncbi.nlm.nih.gov/Taxonomy/
+
+- namespace: taxonomy
+  provider: bptl
+  alias: taxon
+  title: BioPortal
+  redirect: http://purl.bioontology.org/ontology/NCBITAXON/$id
+  test: 9606
+  more: http://bioportal.bioontology.org/ontologies/NCBITAXON
+
+- namespace: taxonomy
+  provider: ebi
+  alias: taxon
+  title: European Nucleotide Archive (ENA)
+  redirect: http://www.ebi.ac.uk/ena/data/view/Taxon:$id
+  test: 9606
+  more: http://www.ebi.ac.uk/ena/
+
+- namespace: taxonomy
+  provider: ols
+  alias: taxon
+  title: NCBI Taxonomy through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/ncbitaxon/terms?short_form=NCBITaxon_$id
+  test: 9606
+  more: http://www.ebi.ac.uk/ols/ontologies/ncbitaxon/
+
+- namespace: taxonomy
+  provider: z015
+  alias: taxon
+  title: Taxonomy through UniProt PURL
+  redirect: http://purl.uniprot.org/taxonomy/$id
+  test: 9606
+  more: http://www.uniprot.org/taxonomy/
+
+- namespace: taxonomy
+  provider: z016
+  alias: taxon
+  title: Bio2RDF
+  redirect: http://taxonomy.bio2rdf.org/describe/?url=http://bio2rdf.org/taxonomy:$id
+  test: 9606
+  more: http://taxonomy.bio2rdf.org/fct/
+
+- namespace: tcdb
+  title: TCDB
+  redirect: http://www.tcdb.org/search/result.php?tc=$id
+  test: 5.A.1.1.1
+  more: http://www.tcdb.org/
+
+- namespace: tgd
+  title: TGD at Stanford University
+  redirect: http://ciliate.org/index.php/feature/details/$id
+  test: TTHERM_00648910
+  more: http://ciliate.org/index.php/
+
+- namespace: tigrfam
+  title: TIGRFAM at JCVI
+  redirect: http://www.jcvi.org/cgi-bin/tigrfams/HmmReportPage.cgi?acc=$id
+  test: TIGR00010
+  more: http://www.jcvi.org/cgi-bin/tigrfams/Listing.cgi
+
+- namespace: tissuelist
+  title: Tissue List at Swiss Institute of Bioinformatics
+  redirect: http://www.uniprot.org/tissues/$id
+  test: TS-0285
+  more: http://www.uniprot.org/docs/tisslist.txt
+
+- namespace: tol
+  title: Tree of Life Web
+  redirect: http://tolweb.org/$id
+  test: 98034
+  more: http://tolweb.org/tree/
+
+- namespace: topdb
+  title: TOPDB at Hungarian Academy of Sciences
+  redirect: http://topdb.enzim.hu/?m=show&id=$id
+  test: AP00378
+  more: http://topdb.enzim.hu/
+
+- namespace: topfind
+  title: TopFind at University of British Columbia
+  redirect: http://clipserve.clip.ubc.ca/topfind/proteins/$id
+  test: Q9UKQ2
+  more: http://clipserve.clip.ubc.ca/topfind
+
+- namespace: toxoplasma
+  title: ToxoDB at EuPathDB
+  redirect: http://toxodb.org/toxo/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: TGME49_053730
+  more: http://toxodb.org/toxo/
+
+- namespace: treebase
+  title: TreeBASE (hosted at National Evolutionary Synthesis Center)
+  redirect: http://purl.org/phylo/treebase/phylows/study/$id?format=html
+  test: TB2:S1000
+  more: http://treebase.org/
+
+- namespace: treefam
+  title: TreeFam database
+  redirect: http://www.treefam.org/family/$id
+  test: TF101014
+  more: http://www.treefam.org/
+
+- namespace: trichdb
+  title: TrichDB at EuPathDB
+  redirect: http://trichdb.org/trichdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: TVAG_386080
+  more: http://trichdb.org/trichdb/
+
+- namespace: tritrypdb
+  title: TriTrypDB at EuPathDB
+  redirect: http://tritrypdb.org/tritrypdb/showRecord.do?name=GeneRecordClasses.GeneRecordClass&source_id=$id
+  test: Tb927.8.620
+  more: http://tritrypdb.org/tritrypdb/
+
+- namespace: ttd.drug
+  title: Therapeutic Target Database Drug
+  redirect: http://bidd.nus.edu.sg/group/TTD/ZFTTDDRUG.asp?ID=$id
+  test: DAP000773
+  more: http://bidd.nus.edu.sg/group/ttd/ttd.asp
+
+- namespace: ttd.target
+  title: Therapeutic Target Database Target
+  redirect: http://bidd.nus.edu.sg/group/TTD/ZFTTDDetail.asp?ID=$id
+  test: TTDS00056
+  more: http://bidd.nus.edu.sg/group/ttd/ttd.asp
+
+- namespace: uberon
+  title: UBERON through bioPortal
+  redirect: http://purl.bioontology.org/ontology/UBERON/UBERON:$id
+  test: 0008203
+  more: http://bioportal.bioontology.org/ontologies/UBERON
+
+- namespace: uberon
+  provider: ols
+  title: UBERON through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/uberon/terms?obo_id=UBERON:$id
+  test: 0008203
+  more: http://www.ebi.ac.uk/ols/ontologies/uberon
+
+- namespace: ubio.namebank
+  title: uBio NameBank at The Marine Biological Laboratory
+  redirect: http://www.ubio.org/browser/details.php?namebankID=$id
+  test: 2555646
+  more: http://www.ubio.org
+
+- namespace: umbbd.compound
+  title: Biocatalysis/Biodegradation Database Mirror (Compound) at ETH Zurich
+  redirect: http://umbbd.ethz.ch/servlets/pageservlet?ptype=c&compID=$id
+  test: c0001
+  more: http://umbbd.ethz.ch/
+
+- namespace: umbbd.enzyme
+  title: Biocatalysis/Biodegradation Database Mirror (Enzyme) at ETH Zurich
+  redirect: http://umbbd.ethz.ch/servlets/pageservlet?ptype=ep&enzymeID=$id
+  test: e0333
+  more: http://umbbd.ethz.ch/
+
+- namespace: umbbd.pathway
+  title: Biocatalysis/Biodegradation Database Mirror (Pathway) at ETH Zurich
+  redirect: http://umbbd.ethz.ch/servlets/pageservlet?ptype=p&pathway_abbr=$id
+  test: ala
+  more: http://umbbd.ethz.ch/
+
+- namespace: umbbd.reaction
+  title: Biocatalysis/Biodegradation Database Mirror (Reaction) at ETH Zurich
+  redirect: http://umbbd.ethz.ch/servlets/pageservlet?ptype=r&reacID=$id
+  test: r0001
+  more: http://umbbd.ethz.ch/
+
+- namespace: umbbd.rule
+  title: Biocatalysis/Biodegradation Database Mirror (Biotransformation Rule) at ETH Zurich
+  redirect: http://www.umbbd.ethz.ch/servlets/rule.jsp?rule=$id
+  test: bt0001
+  more: http://umbbd.ethz.ch/servlets/pageservlet?ptype=allrules
+
+- namespace: umls
+  title: Unified Medical Language System at LinkedLifeData
+  redirect: http://linkedlifedata.com/resource/umls/id/$id
+  test: C0021390
+  more: http://linkedlifedata.com/
+
+- namespace: unigene
+  title: UniGene at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/UniGene/clust.cgi?UGID=$id
+  test: 4900
+  more: http://www.ncbi.nlm.nih.gov/unigene
+
+- namespace: unii
+  title: UNII at U.S. Food and Drug Administration
+  redirect: http://fdasis.nlm.nih.gov/srs/srsdirect.jsp?regno=$id
+  test: 3G6A5W338E
+  more: http://fdasis.nlm.nih.gov/srs/
+
+- namespace: unimod
+  title: Unimod at Matrix Sciences Ltd.
+  redirect: http://www.unimod.org/modifications_view.php?editid1=$id
+  test: 1200
+  more: http://www.unimod.org/
+
+- namespace: uniparc
+  title: UniProt Archive (UniParc)
+  redirect: http://www.ebi.ac.uk/cgi-bin/dbfetch?db=uniparc&id=$id
+  test: UPI000000000A
+  more: http://www.ebi.ac.uk/uniparc/
+
+- namespace: uniparc
+  provider: z032
+  title: UniParc through UniProt
+  redirect: http://www.uniprot.org/uniparc/$id
+  test: UPI000000000A
+  more: http://www.uniprot.org/uniparc/
+
+- namespace: unipathway
+  title: UniPathway
+  redirect: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upa?upid=$id
+  test: UPA00206
+  more: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+
+- namespace: unipathway.compound
+  title: UniPathway Compound at Swiss Institute of Bioinformatics (SIB)
+  redirect: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/upc?upid=$id
+  test: UPC04349
+  more: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+
+- namespace: unipathway.reaction
+  title: UniPathway Reaction at Swiss Institute of Bioinformatics (SIB)
+  redirect: http://www.grenoble.prabi.fr/obiwarehouse/unipathway/ucr?upid=$id
+  test: UCR00226
+  more: http://www.grenoble.prabi.fr/obiwarehouse/unipathway
+
+- namespace: uniprot
+  title: Universal Protein Resource
+  redirect: http://www.uniprot.org/uniprot/$id
+  test: P62158
+  more: http://www.uniprot.org/
+
+- namespace: uniprot
+  provider: ncbi
+  title: UniProt through NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/protein/$id
+  test: P62158
+  more: http://www.ncbi.nlm.nih.gov/protein/
+
+- namespace: uniprot.isoform
+  title: UniProt Isoform through Universal Protein Resource
+  redirect: http://www.uniprot.org/uniprot/$id
+  test: Q5BJF6-3
+  more: http://www.uniprot.org/
+
+- namespace: uniprot.isoform
+  provider: z064
+  title: UniProt Isoform through UniParc
+  redirect: http://www.uniprot.org/uniparc/?query=$id
+  test: Q5BJF6-3
+  more: http://www.uniprot.org/uniparc/
+
+- namespace: unists
+  title: UniSTS at NCBI
+  redirect: http://www.ncbi.nlm.nih.gov/genome/sts/sts.cgi?uid=$id
+  test: 456789
+  more: http://www.ncbi.nlm.nih.gov/sites/entrez?db=unists
+
+- namespace: unite
+  title: Unite at University of Tartu
+  redirect: http://unite.ut.ee/bl_forw.php?nimi=$id
+  test: UDB000691
+  more: http://unite.ut.ee/
+
+- namespace: uo
+  title: Unit Ontology via Ontology Lookup Service
+  redirect: http://www.ebi.ac.uk/ols/ontologies/uo/terms?obo_id=UO:$id
+  test: 0000080
+  more: http://www.ebi.ac.uk/ols/ontologies/uo
+
+- namespace: uo
+  provider: bptl
+  title: Unit Ontology through BioPortal
+  redirect: http://purl.bioontology.org/ontology/UO/UO:$id
+  test: 0000080
+  more: http://bioportal.bioontology.org/ontologies/UO
+
+- namespace: uspto
+  title: USPTO patents at USPTO
+  redirect: http://patft.uspto.gov/netacgi/nph-Parser?Sect2=PTO1&Sect2=HITOFF&p=1&u=/netahtml/PTO/search-bool.html&r=1&f=G&l=50&d=PALL&RefSrch=yes&Query=PN/$id
+  test: 4145692
+  more: http://patft.uspto.gov/netahtml/PTO/index.html
+
+- namespace: vario
+  title: VariO at Lund University
+  redirect: http://www.variationontology.org/cgi-bin/amivario/term-details.cgi?term=$id
+  test: VariO:0294
+  more: http://www.variationontology.org/
+
+- namespace: vario
+  provider: bptl
+  title: VariO through BioPortal
+  redirect: http://purl.bioontology.org/ontology/VARIO/$id
+  test: VariO:0294
+  more: http://bioportal.bioontology.org/ontologies/VARIO
+
+- namespace: vario
+  provider: ols
+  title: VariO through OLS
+  redirect: http://www.ebi.ac.uk/ols/ontologies/vario/terms?obo_id=$id
+  test: VariO:0294
+  more: http://www.ebi.ac.uk/ols/ontologies/vario
+
+- namespace: vbase2
+  title: Vbase2 at German Research Centre for Biotechnology
+  redirect: http://www.vbase2.org/vgene.php?id=$id
+  test: humIGHV025
+  more: http://www.vbase2.org/vbase2.php
+
+- namespace: vbrc
+  title: VBRC at University of Alabama
+  redirect: http://vbrc.org/gene_detail.asp?gene_id=$id
+  test: 35742
+  more: http://vbrc.org/
+
+- namespace: vectorbase
+  title: Vectorbase at EMBL-EBI
+  redirect: https://www.vectorbase.org/search/site/$id?&site="Genome"
+  test: ISCW007415
+  more: http://www.vectorbase.org/
+
+- namespace: vfdb.gene
+  title: VFDB Gene at Institute of Pathogen Biology
+  redirect: http://www.mgc.ac.cn/cgi-bin/VFs/gene.cgi?GeneID=$id
+  test: VFG2154
+  more: http://www.mgc.ac.cn/VFs/
+
+- namespace: vfdb.genus
+  title: VFDB Genus at Institute of Pathogen Biology
+  redirect: http://www.mgc.ac.cn/cgi-bin/VFs/genus.cgi?Genus=$id
+  test: Chlamydia
+  more: http://www.mgc.ac.cn/VFs/
+
+- namespace: vipr
+  title: ViPR Strain at J. Craig Venter Institute
+  redirect: http://www.viprbrc.org/brc/viprStrainDetails.do?strainName=$id&decorator=arena
+  test: BeAn 70563
+  more: http://www.viprbrc.org/brc/home.do?decorator=vipr
+
+- namespace: viralzone
+  title: ViralZone at SIB
+  redirect: http://viralzone.expasy.org/all_by_protein/$id.html
+  test: 992
+  more: http://www.expasy.org/viralzone/
+
+- namespace: virsirna
+  title: VIRsiRNA at Institute of Microbial Technology
+  redirect: http://crdd.osdd.net/servers/virsirnadb/record.php?details=$id
+  test: virsi1909
+  more: http://crdd.osdd.net/servers/virsirnadb
+
+- namespace: wikidata
+  title: Wikidata at Wikimedia Foundation
+  redirect: https://www.wikidata.org/wiki/$id
+  test: Q2207226
+  more: https://www.wikidata.org/
+
+- namespace: wikigenes
+  title: WikiGenes at Massachusetts Institute of Technology
+  redirect: http://www.wikigenes.org/e/gene/e/$id.html
+  test: 3771877
+  more: http://www.wikigenes.org/
+
+- namespace: wikipathways
+  title: Wikipathways
+  redirect: http://www.wikipathways.org/instance/$id
+  test: WP100
+  more: http://www.wikipathways.org/
+
+- namespace: wikipedia.en
+  title: Wikipedia (English)
+  redirect: http://en.wikipedia.org/wiki/$id
+  test: SM_UB-81
+  more: http://en.wikipedia.org/wiki/Main_Page
+
+- namespace: wikipedia.en
+  provider: z062
+  title: Wikipedia structured content through DBpedia
+  redirect: http://dbpedia.org/page/$id
+  test: SM_UB-81
+  more: http://wiki.dbpedia.org/
+
+- namespace: worfdb
+  title: Worm Orf DB at Harvard
+  redirect: http://worfdb.dfci.harvard.edu/index.php?search_type=name&page=showresultrc&race_query=$id
+  test: T01B6.1
+  more: http://worfdb.dfci.harvard.edu/
+
+- namespace: wormbase
+  title: WormBase (Master)
+  redirect: http://www.wormbase.org/db/gene/gene?name=$id;class=Gene
+  test: WBGene00000001
+  more: http://www.wormbase.org/
+
+- namespace: wormbase
+  provider: z030
+  title: Bio2RDF
+  redirect: http://wormbase.bio2rdf.org/describe/?url=http://bio2rdf.org/wormbase:$id
+  test: WBGene00000001
+  more: http://wormbase.bio2rdf.org/fct
+
+- namespace: wormbase.rnai
+  title: WormBase RNAi at Cold Spring Harbor Laboratory
+  redirect: http://www.wormbase.org/species/c_elegans/rnai/$id
+  test: WBRNAi00086878
+  more: http://www.wormbase.org/
+
+- namespace: wormpep
+  title: Wormpep (Master)
+  redirect: http://www.wormbase.org/db/seq/protein?name=WP:$id
+  test: CE28239
+  more: http://www.wormbase.org/db/seq/protein
+
+- namespace: xenbase
+  title: Xenbase at University of Calgary
+  redirect: http://www.xenbase.org/gene/showgene.do?method=displayGeneSummary&geneId=$id
+  test: 922462
+  more: http://www.xenbase.org/
+
+- namespace: ydpm
+  title: YDPM at Stanford University School of Medicine
+  redirect: http://www-deletion.stanford.edu/cgi-bin/YDPM/YDPM_search.cgi?thelist=$id
+  test: YAL001C
+  more: http://www-deletion.stanford.edu/YDPM/
+
+- namespace: yeastintron
+  title: Yeast Intron Database version 4.3 at Baskin School of Engineering
+  redirect: http://intron.ucsc.edu/cgi-bin/yeast4.3/intronreports.pl?outputformat=full&amp;orfName=$id
+  test: SNR17A
+  more: http://intron.ucsc.edu/yeast4.3/
+
+- namespace: yetfasco
+  title: YeTFasCo at University of Toronto
+  redirect: http://yetfasco.ccbr.utoronto.ca/showPFM.php?mot=$id
+  test: YOR172W_571.0
+  more: http://yetfasco.ccbr.utoronto.ca/
+
+- namespace: yid
+  title: Yeast Intron Database version 3 at Baskin School of Engineering
+  redirect: http://metarray.ucsc.edu/cgi-bin/intron/yirIntrondb?orfName=$id
+  test: SNR17A
+  more: http://compbio.soe.ucsc.edu/yeast_introns.html
+
+- namespace: yrcpdr
+  title: YRC PDR at University of Washington
+  redirect: http://yeastrc.org/pdr/viewProtein.do?id=$id
+  test: 2673500
+  more: http://www.yeastrc.org/pdr/
+
+- namespace: zfin
+  title: ZFIN Expression at University of Oregon
+  redirect: http://zfin.org/$id
+  test: ZDB-GENE-041118-11
+  more: http://zfin.org
+
+- namespace: zfin.expression
+  title: ZFIN Expression at University of Oregon
+  redirect: http://zfin.org/$id
+  test: ZDB-GENO-980202-899
+  more: http://zfin.org
+
+- namespace: zfin.phenotype
+  title: ZFIN Phenotype at University of Oregon
+  redirect: http://zfin.org/$id
+  test: ZDB-GENO-980202-899
+  more: http://zfin.org
+
+- namespace: zinc
+  title: ZINC at University of California (San Francisco)
+  redirect: http://zinc15.docking.org/substances/$id
+  test: ZINC1084
+  more: http://zinc15.docking.org/
