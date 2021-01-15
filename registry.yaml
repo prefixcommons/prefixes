@@ -2091,6 +2091,12 @@
   test: ev:E00032
   more: http://www.genome.jp/kegg/drug/environ.html
 
+- namespace: kegg.enzyme
+  title: KEGG Reaction Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: 1.1.1.388
+  more: https://www.genome.jp/kegg/annotation/enzyme.html
+ 
 - namespace: kegg.genes
   title: KEGG GENES Database
   redirect: http://www.kegg.jp/entry/$id
