@@ -2138,6 +2138,12 @@
   redirect: http://www.kegg.jp/entry/$id
   test: R00100
   more: http://www.genome.jp/kegg/reaction/
+  
+- namespace: kegg.rclass
+  title: KEGG Reaction Class
+  redirect: http://www.kegg.jp/entry/$id
+  test: RC00001
+  more: http://www.genome.jp/kegg/reaction/
 
 - namespace: knapsack
   title: KnapSack at Nara Institute
