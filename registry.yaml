@@ -2079,6 +2079,12 @@
   test: H00076
   more: http://www.genome.jp/kegg/disease/
 
+- namespace: kegg.dgroup
+  title: KEGG DRUG Database
+  redirect: http://www.kegg.jp/entry/$id
+  test: DG00301
+  more: http://www.genome.jp/kegg/drug/
+  
 - namespace: kegg.drug
   title: KEGG DRUG Database
   redirect: http://www.kegg.jp/entry/$id
