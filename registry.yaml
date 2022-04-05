@@ -4222,6 +4222,18 @@
   redirect: http://www.wormbase.org/db/seq/protein?name=WP:$id
   test: CE28239
   more: http://www.wormbase.org/db/seq/protein
+  
+- namespace: WBls
+  title: Worm Life Stages
+  redirect: https://wormbase.org/species/all/life_stage/WBls:$id
+  test: WBls:0000057
+  more: https://wormbase.org/species/all/life_stage
+  
+- namespace: WBbt
+  title: Worm Anatomy
+  redirect: https://wormbase.org/species/all/anatomy_term/WBbt:$id
+  test: WBbt:0000100
+  more: https://wormbase.org/species/all/anatomy_term
 
 - namespace: xenbase
   title: Xenbase at University of Calgary
